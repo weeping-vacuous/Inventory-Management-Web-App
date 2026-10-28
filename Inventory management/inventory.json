@@ -1,0 +1,522 @@
+{
+    "PROD-1001": {
+        "name": "Laptop",
+        "sku": "PROD-1001",
+        "price": 1200.0,
+        "quantity": 10,
+        "category": "Computers",
+        "description": "SKU: PROD-1001 - Laptop",
+        "total_value": 12000.0,
+        "stock_status": "In Stock"
+    },
+    "PROD-1002": {
+        "name": "Wireless Mouse",
+        "sku": "PROD-1002",
+        "price": 75.5,
+        "quantity": 10,
+        "category": "Peripherals",
+        "description": "SKU: PROD-1002 - Wireless Mouse",
+        "total_value": 755.0,
+        "stock_status": "In Stock"
+    },
+    "PROD-1003": {
+        "name": "Mechanical Keyboard",
+        "sku": "PROD-1003",
+        "price": 150.0,
+        "quantity": 13,
+        "category": "Peripherals",
+        "description": "SKU: PROD-1003 - Mechanical Keyboard",
+        "total_value": 1950.0,
+        "stock_status": "In Stock"
+    },
+    "PROD-1004": {
+        "name": "USB-C Hub",
+        "sku": "PROD-1004",
+        "price": 45.99,
+        "quantity": 40,
+        "category": "Peripherals",
+        "description": "SKU: PROD-1004 - USB-C Hub",
+        "total_value": 1839.6,
+        "stock_status": "In Stock"
+    },
+    "PROD-1005": {
+        "name": "4K Monitor",
+        "sku": "PROD-1005",
+        "price": 349.99,
+        "quantity": 15,
+        "category": "Displays",
+        "description": "SKU: PROD-1005 - 4K Monitor",
+        "total_value": 5249.85,
+        "stock_status": "In Stock"
+    },
+    "PROD-1006": {
+        "name": "Bluetooth Headphones",
+        "sku": "PROD-1006",
+        "price": 199.0,
+        "quantity": 10,
+        "category": "Mobile",
+        "description": "SKU: PROD-1006 - Bluetooth Headphones",
+        "total_value": 1990.0,
+        "stock_status": "In Stock"
+    },
+    "PROD-1007": {
+        "name": "Smart Watch",
+        "sku": "PROD-1007",
+        "price": 249.5,
+        "quantity": 22,
+        "category": "Wearables",
+        "description": "SKU: PROD-1007 - Smart Watch",
+        "total_value": 5489.0,
+        "stock_status": "In Stock"
+    },
+    "PROD-1008": {
+        "name": "Portable SSD (1TB)",
+        "sku": "PROD-1008",
+        "price": 129.99,
+        "quantity": 18,
+        "category": "Storage",
+        "description": "SKU: PROD-1008 - Portable SSD (1TB)",
+        "total_value": 2339.82,
+        "stock_status": "In Stock"
+    },
+    "PROD-1009": {
+        "name": "Noise Cancelling Earbuds",
+        "sku": "PROD-1009",
+        "price": 179.0,
+        "quantity": 35,
+        "category": "Audio",
+        "description": "SKU: PROD-1009 - Noise Cancelling Earbuds",
+        "total_value": 6265.0,
+        "stock_status": "In Stock"
+    },
+    "PROD-1010": {
+        "name": "Smartphone",
+        "sku": "PROD-1010",
+        "price": 899.0,
+        "quantity": 12,
+        "category": "Mobile",
+        "description": "SKU: PROD-1010 - Smartphone",
+        "total_value": 10788.0,
+        "stock_status": "In Stock"
+    },
+    "PROD-2001": {
+        "name": "Stapler",
+        "sku": "PROD-2001",
+        "price": 12.5,
+        "quantity": 150,
+        "category": "General",
+        "description": "SKU: PROD-2001 - Stapler",
+        "total_value": 1875.0,
+        "stock_status": "In Stock"
+    },
+    "PROD-2002": {
+        "name": "Printer Paper (500 sheets)",
+        "sku": "PROD-2002",
+        "price": 9.99,
+        "quantity": 300,
+        "category": "General",
+        "description": "SKU: PROD-2002 - Printer Paper (500 sheets)",
+        "total_value": 2997.0,
+        "stock_status": "In Stock"
+    },
+    "PROD-2003": {
+        "name": "Gel Pens (12-Pack)",
+        "sku": "PROD-2003",
+        "price": 15.0,
+        "quantity": 200,
+        "category": "General",
+        "description": "SKU: PROD-2003 - Gel Pens (12-Pack)",
+        "total_value": 3000.0,
+        "stock_status": "In Stock"
+    },
+    "PROD-2004": {
+        "name": "Sticky Notes (6-Pack)",
+        "sku": "PROD-2004",
+        "price": 7.8,
+        "quantity": 400,
+        "category": "General",
+        "description": "SKU: PROD-2004 - Sticky Notes (6-Pack)",
+        "total_value": 3120.0,
+        "stock_status": "In Stock"
+    },
+    "PROD-2005": {
+        "name": "Whiteboard Markers (4-Pack)",
+        "sku": "PROD-2005",
+        "price": 6.5,
+        "quantity": 120,
+        "category": "General",
+        "description": "SKU: PROD-2005 - Whiteboard Markers (4-Pack)",
+        "total_value": 780.0,
+        "stock_status": "In Stock"
+    },
+    "PROD-2006": {
+        "name": "Ergonomic Chair",
+        "sku": "PROD-2006",
+        "price": 275.0,
+        "quantity": 10,
+        "category": "Audio",
+        "description": "SKU: PROD-2006 - Ergonomic Chair",
+        "total_value": 2750.0,
+        "stock_status": "In Stock"
+    },
+    "PROD-2007": {
+        "name": "Desk Lamp",
+        "sku": "PROD-2007",
+        "price": 35.0,
+        "quantity": 30,
+        "category": "General",
+        "description": "SKU: PROD-2007 - Desk Lamp",
+        "total_value": 1050.0,
+        "stock_status": "In Stock"
+    },
+    "PROD-2008": {
+        "name": "File Folders (100-Pack)",
+        "sku": "PROD-2008",
+        "price": 18.25,
+        "quantity": 80,
+        "category": "General",
+        "description": "SKU: PROD-2008 - File Folders (100-Pack)",
+        "total_value": 1460.0,
+        "stock_status": "In Stock"
+    },
+    "PROD-2009": {
+        "name": "Three-Ring Binder",
+        "sku": "PROD-2009",
+        "price": 4.5,
+        "quantity": 100,
+        "category": "General",
+        "description": "SKU: PROD-2009 - Three-Ring Binder",
+        "total_value": 450.0,
+        "stock_status": "In Stock"
+    },
+    "PROD-2010": {
+        "name": "Paper Clips (Box)",
+        "sku": "PROD-2010",
+        "price": 2.99,
+        "quantity": 500,
+        "category": "General",
+        "description": "SKU: PROD-2010 - Paper Clips (Box)",
+        "total_value": 1495.0,
+        "stock_status": "In Stock"
+    },
+    "PROD-3001": {
+        "name": "Coffee Maker",
+        "sku": "PROD-3001",
+        "price": 89.99,
+        "quantity": 20,
+        "category": "General",
+        "description": "SKU: PROD-3001 - Coffee Maker",
+        "total_value": 1799.8,
+        "stock_status": "In Stock"
+    },
+    "PROD-3002": {
+        "name": "Blender",
+        "sku": "PROD-3002",
+        "price": 45.0,
+        "quantity": 30,
+        "category": "General",
+        "description": "SKU: PROD-3002 - Blender",
+        "total_value": 1350.0,
+        "stock_status": "In Stock"
+    },
+    "PROD-3003": {
+        "name": "Air Fryer",
+        "sku": "PROD-3003",
+        "price": 110.0,
+        "quantity": 15,
+        "category": "General",
+        "description": "SKU: PROD-3003 - Air Fryer",
+        "total_value": 1650.0,
+        "stock_status": "In Stock"
+    },
+    "PROD-3004": {
+        "name": "Set of Knives",
+        "sku": "PROD-3004",
+        "price": 80.0,
+        "quantity": 25,
+        "category": "General",
+        "description": "SKU: PROD-3004 - Set of Knives",
+        "total_value": 2000.0,
+        "stock_status": "In Stock"
+    },
+    "PROD-3005": {
+        "name": "Non-Stick Pan",
+        "sku": "PROD-3005",
+        "price": 32.5,
+        "quantity": 40,
+        "category": "General",
+        "description": "SKU: PROD-3005 - Non-Stick Pan",
+        "total_value": 1300.0,
+        "stock_status": "In Stock"
+    },
+    "PROD-3006": {
+        "name": "Bath Towel Set",
+        "sku": "PROD-3006",
+        "price": 49.99,
+        "quantity": 50,
+        "category": "General",
+        "description": "SKU: PROD-3006 - Bath Towel Set",
+        "total_value": 2499.5,
+        "stock_status": "In Stock"
+    },
+    "PROD-3007": {
+        "name": "Queen Sheet Set",
+        "sku": "PROD-3007",
+        "price": 65.0,
+        "quantity": 35,
+        "category": "General",
+        "description": "SKU: PROD-3007 - Queen Sheet Set",
+        "total_value": 2275.0,
+        "stock_status": "In Stock"
+    },
+    "PROD-3008": {
+        "name": "Vacuum Cleaner",
+        "sku": "PROD-3008",
+        "price": 199.0,
+        "quantity": 12,
+        "category": "General",
+        "description": "SKU: PROD-3008 - Vacuum Cleaner",
+        "total_value": 2388.0,
+        "stock_status": "In Stock"
+    },
+    "PROD-3009": {
+        "name": "Shower Curtain",
+        "sku": "PROD-3009",
+        "price": 22.0,
+        "quantity": 60,
+        "category": "General",
+        "description": "SKU: PROD-3009 - Shower Curtain",
+        "total_value": 1320.0,
+        "stock_status": "In Stock"
+    },
+    "PROD-3010": {
+        "name": "Cutlery Set (20-Piece)",
+        "sku": "PROD-3010",
+        "price": 55.0,
+        "quantity": 28,
+        "category": "General",
+        "description": "SKU: PROD-3010 - Cutlery Set (20-Piece)",
+        "total_value": 1540.0,
+        "stock_status": "In Stock"
+    },
+    "PROD-4001": {
+        "name": "Olive Oil (500ml)",
+        "sku": "PROD-4001",
+        "price": 14.99,
+        "quantity": 100,
+        "category": "General",
+        "description": "SKU: PROD-4001 - Olive Oil (500ml)",
+        "total_value": 1499.0,
+        "stock_status": "In Stock"
+    },
+    "PROD-4002": {
+        "name": "Pasta (Box)",
+        "sku": "PROD-4002",
+        "price": 2.5,
+        "quantity": 300,
+        "category": "General",
+        "description": "SKU: PROD-4002 - Pasta (Box)",
+        "total_value": 750.0,
+        "stock_status": "In Stock"
+    },
+    "PROD-4003": {
+        "name": "Tomato Sauce (Jar)",
+        "sku": "PROD-4003",
+        "price": 3.2,
+        "quantity": 250,
+        "category": "General",
+        "description": "SKU: PROD-4003 - Tomato Sauce (Jar)",
+        "total_value": 800.0,
+        "stock_status": "In Stock"
+    },
+    "PROD-4004": {
+        "name": "Cereal (Box)",
+        "sku": "PROD-4004",
+        "price": 4.8,
+        "quantity": 150,
+        "category": "General",
+        "description": "SKU: PROD-4004 - Cereal (Box)",
+        "total_value": 720.0,
+        "stock_status": "In Stock"
+    },
+    "PROD-4005": {
+        "name": "Coffee Beans (Bag)",
+        "sku": "PROD-4005",
+        "price": 16.0,
+        "quantity": 80,
+        "category": "General",
+        "description": "SKU: PROD-4005 - Coffee Beans (Bag)",
+        "total_value": 1280.0,
+        "stock_status": "In Stock"
+    },
+    "PROD-4006": {
+        "name": "Peanut Butter (Jar)",
+        "sku": "PROD-4006",
+        "price": 5.5,
+        "quantity": 130,
+        "category": "General",
+        "description": "SKU: PROD-4006 - Peanut Butter (Jar)",
+        "total_value": 715.0,
+        "stock_status": "In Stock"
+    },
+    "PROD-4007": {
+        "name": "All-Purpose Flour (5lb)",
+        "sku": "PROD-4007",
+        "price": 4.2,
+        "quantity": 90,
+        "category": "General",
+        "description": "SKU: PROD-4007 - All-Purpose Flour (5lb)",
+        "total_value": 378.0,
+        "stock_status": "In Stock"
+    },
+    "PROD-4008": {
+        "name": "Granola Bars (Box of 12)",
+        "sku": "PROD-4008",
+        "price": 8.99,
+        "quantity": 110,
+        "category": "General",
+        "description": "SKU: PROD-4008 - Granola Bars (Box of 12)",
+        "total_value": 988.9,
+        "stock_status": "In Stock"
+    },
+    "PROD-4009": {
+        "name": "Black Beans (Can)",
+        "sku": "PROD-4009",
+        "price": 1.5,
+        "quantity": 400,
+        "category": "General",
+        "description": "SKU: PROD-4009 - Black Beans (Can)",
+        "total_value": 600.0,
+        "stock_status": "In Stock"
+    },
+    "PROD-4010": {
+        "name": "Jasmine Rice (Bag)",
+        "sku": "PROD-4010",
+        "price": 18.0,
+        "quantity": 70,
+        "category": "General",
+        "description": "SKU: PROD-4010 - Jasmine Rice (Bag)",
+        "total_value": 1260.0,
+        "stock_status": "In Stock"
+    },
+    "PROD-5001": {
+        "name": "Men's T-Shirt (Large, Blue)",
+        "sku": "PROD-5001",
+        "price": 25.0,
+        "quantity": 75,
+        "category": "General",
+        "description": "SKU: PROD-5001 - Men's T-Shirt (Large, Blue)",
+        "total_value": 1875.0,
+        "stock_status": "In Stock"
+    },
+    "PROD-5002": {
+        "name": "Women's Jeans (Size 8)",
+        "sku": "PROD-5002",
+        "price": 59.99,
+        "quantity": 45,
+        "category": "General",
+        "description": "SKU: PROD-5002 - Women's Jeans (Size 8)",
+        "total_value": 2699.55,
+        "stock_status": "In Stock"
+    },
+    "PROD-5003": {
+        "name": "Running Shoes (Men's 10)",
+        "sku": "PROD-5003",
+        "price": 120.0,
+        "quantity": 30,
+        "category": "General",
+        "description": "SKU: PROD-5003 - Running Shoes (Men's 10)",
+        "total_value": 3600.0,
+        "stock_status": "In Stock"
+    },
+    "PROD-5004": {
+        "name": "Winter Coat (Medium)",
+        "sku": "PROD-5004",
+        "price": 180.0,
+        "quantity": 20,
+        "category": "General",
+        "description": "SKU: PROD-5004 - Winter Coat (Medium)",
+        "total_value": 3600.0,
+        "stock_status": "In Stock"
+    },
+    "PROD-5005": {
+        "name": "Beanie Hat",
+        "sku": "PROD-5005",
+        "price": 18.0,
+        "quantity": 60,
+        "category": "General",
+        "description": "SKU: PROD-5005 - Beanie Hat",
+        "total_value": 1080.0,
+        "stock_status": "In Stock"
+    },
+    "PROD-5006": {
+        "name": "Wool Socks (3-Pack)",
+        "sku": "PROD-5006",
+        "price": 22.0,
+        "quantity": 80,
+        "category": "General",
+        "description": "SKU: PROD-5006 - Wool Socks (3-Pack)",
+        "total_value": 1760.0,
+        "stock_status": "In Stock"
+    },
+    "PROD-5007": {
+        "name": "Leather Belt",
+        "sku": "PROD-5007",
+        "price": 40.0,
+        "quantity": 40,
+        "category": "General",
+        "description": "SKU: PROD-5007 - Leather Belt",
+        "total_value": 1600.0,
+        "stock_status": "In Stock"
+    },
+    "PROD-5008": {
+        "name": "Hooded Sweatshirt (Large)",
+        "sku": "PROD-5008",
+        "price": 55.0,
+        "quantity": 50,
+        "category": "General",
+        "description": "SKU: PROD-5008 - Hooded Sweatshirt (Large)",
+        "total_value": 2750.0,
+        "stock_status": "In Stock"
+    },
+    "PROD-5009": {
+        "name": "Polo Shirt (Medium, Red)",
+        "sku": "PROD-5009",
+        "price": 35.0,
+        "quantity": 65,
+        "category": "General",
+        "description": "SKU: PROD-5009 - Polo Shirt (Medium, Red)",
+        "total_value": 2275.0,
+        "stock_status": "In Stock"
+    },
+    "PROD-5010": {
+        "name": "Rain Jacket (Large)",
+        "sku": "PROD-5010",
+        "price": 90.0,
+        "quantity": 25,
+        "category": "General",
+        "description": "SKU: PROD-5010 - Rain Jacket (Large)",
+        "total_value": 2250.0,
+        "stock_status": "In Stock"
+    },
+    "PROD-5011": {
+        "name": "Headphones",
+        "sku": "PROD-5011",
+        "price": 100.0,
+        "quantity": 50,
+        "category": "Mobile",
+        "description": "SKU: PROD-5011 - Headphones",
+        "total_value": 5000.0,
+        "stock_status": "In Stock"
+    },
+    "PROD-5012": {
+        "name": "Shaker",
+        "sku": "PROD-5012",
+        "price": 20.0,
+        "quantity": 900,
+        "category": "General",
+        "description": "SKU: PROD-5012 - Shaker",
+        "total_value": 18000.0,
+        "stock_status": "In Stock"
+    }
+}

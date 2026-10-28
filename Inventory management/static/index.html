@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inventory Management & Concurrency Test Hub</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="app" class="app-container">
+    <!-- Header -->
+    <header class="app-header">
+      <div class="header-left">
+        <div class="brand-logo">
+          <span class="logo-icon">📦</span>
+          <div class="brand-text">
+            <h1>StockFlow</h1>
+            <span class="sub-brand">Inventory & Test Engine</span>
+          </div>
+        </div>
+        <div class="server-badge">
+          <span class="status-dot"></span>
+          <span>Backend Connected (Port 8000)</span>
+        </div>
+      </div>
+      
+      <nav class="nav-tabs">
+        <button class="nav-tab active" data-tab="tab-inventory">
+          <span class="tab-icon">📋</span> Inventory
+        </button>
+        <button class="nav-tab" data-tab="tab-tests">
+          <span class="tab-icon">⚡</span> Concurrency Test Lab
+        </button>
+        <button class="nav-tab" data-tab="tab-logs">
+          <span class="tab-icon">📜</span> System Logs
+          <span id="log-count-badge" class="badge-pill">0</span>
+        </button>
+      </nav>
+
+      <div class="header-right">
+        <button id="btn-add-product" class="btn btn-primary">
+          <span>+ Add Product</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Top KPI Stats Cards -->
+    <section class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-label">Total SKUs</div>
+        <div class="stat-value" id="stat-total-products">--</div>
+        <div class="stat-hint" id="stat-category-count">Loading categories...</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Total Stock Units</div>
+        <div class="stat-value" id="stat-total-quantity">--</div>
+        <div class="stat-hint">Across all warehouse items</div>
+      </div>
+      <div class="stat-card accent">
+        <div class="stat-label">Total Inventory Value</div>
+        <div class="stat-value" id="stat-total-valuation">₹0.00</div>
+        <div class="stat-hint">Calculated in real-time</div>
+      </div>
+      <div class="stat-card warning">
+        <div class="stat-label">Stock Health</div>
+        <div class="stat-health-bar">
+          <div class="health-item healthy">
+            <span class="dot green"></span> <span id="stat-in-stock">0</span> In Stock
+          </div>
+          <div class="health-item low">
+            <span class="dot yellow"></span> <span id="stat-low-stock">0</span> Low (<10)
+          </div>
+          <div class="health-item out">
+            <span class="dot red"></span> <span id="stat-out-stock">0</span> Empty
+          </div>
+        </div>
+        <div class="stat-hint">Automated low stock alerts</div>
+      </div>
+    </section>
+
+    <!-- TAB 1: INVENTORY MANAGEMENT -->
+    <main id="tab-inventory" class="tab-content active">
+      <!-- Filter Bar -->
+      <div class="control-bar">
+        <div class="search-box">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="inventory-search" placeholder="Search by product name, SKU, or keyword...">
+        </div>
+        <div class="filter-controls">
+          <select id="filter-category" class="form-select">
+            <option value="All">All Categories</option>
+          </select>
+          <select id="filter-status" class="form-select">
+            <option value="All">All Stock Statuses</option>
+            <option value="In Stock">In Stock (10+)</option>
+            <option value="Low Stock">Low Stock (<10)</option>
+            <option value="Out of Stock">Out of Stock (0)</option>
+          </select>
+          <select id="sort-by" class="form-select">
+            <option value="name_asc">Sort: Name (A-Z)</option>
+            <option value="name_desc">Sort: Name (Z-A)</option>
+            <option value="price_asc">Sort: Price (Low to High)</option>
+            <option value="price_desc">Sort: Price (High to Low)</option>
+            <option value="quantity_desc">Sort: Stock (Highest)</option>
+            <option value="quantity_asc">Sort: Stock (Lowest)</option>
+            <option value="total_value_desc">Sort: Valuation (Highest)</option>
+          </select>
+          <button id="btn-refresh-inventory" class="btn btn-secondary" title="Reload Inventory">
+            🔄 Refresh
+          </button>
+        </div>
+      </div>
+
+      <!-- Inventory Table -->
+      <div class="table-container">
+        <table class="inventory-table">
+          <thead>
+            <tr>
+              <th>SKU</th>
+              <th>Product Name</th>
+              <th>Category</th>
+              <th>Price</th>
+              <th>Stock Qty</th>
+              <th>Total Valuation</th>
+              <th>Status</th>
+              <th class="text-right">Actions</th>
+            </tr>
+          </thead>
+          <tbody id="inventory-tbody">
+            <tr>
+              <td colspan="8" class="text-center py-8">Loading inventory data...</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+
+    <!-- TAB 2: CONCURRENCY TEST LAB -->
+    <main id="tab-tests" class="tab-content">
+      <div class="tests-layout">
+        <!-- Configuration Card -->
+        <div class="card test-config-card">
+          <div class="card-header">
+            <h2>⚡ Concurrency & Stress Test Runner</h2>
+            <p class="card-desc">Simulate high-volume simultaneous customer purchases to test multi-threaded race conditions and lock integrity.</p>
+          </div>
+          
+          <form id="test-form" class="test-form">
+            <div class="form-group">
+              <label for="test-sku">Target Product (SKU):</label>
+              <select id="test-sku" class="form-select" required>
+                <!-- Populated dynamically -->
+              </select>
+              <small class="form-hint" id="test-sku-info">Current stock: --</small>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group flex-1">
+                <label for="test-threads">Simulated Customers (Threads):</label>
+                <div class="range-with-number">
+                  <input type="range" id="test-threads-range" min="1" max="200" value="100">
+                  <input type="number" id="test-threads" min="1" max="500" value="100" class="num-input">
+                </div>
+                <small class="form-hint">Number of simultaneous buying threads.</small>
+              </div>
+
+              <div class="form-group flex-1">
+                <label for="test-amount">Quantity per Customer:</label>
+                <input type="number" id="test-amount" min="1" max="50" value="1" class="form-input" required>
+                <small class="form-hint">Units each customer thread tries to buy.</small>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="test-delay">Simulated Network Delay (ms):</label>
+              <input type="range" id="test-delay-range" min="0" max="50" value="0">
+              <div class="range-labels">
+                <span>0ms (Instant/High Stress)</span>
+                <span id="delay-display">0 ms</span>
+                <span>50ms</span>
+              </div>
+            </div>
+
+            <button type="submit" id="btn-start-test" class="btn btn-accent btn-large">
+              <span>🚀 Launch Concurrency Test</span>
+            </button>
+          </form>
+        </div>
+
+        <!-- Live Results Card -->
+        <div class="card test-results-card">
+          <div class="card-header">
+            <h2>📊 Real-Time Test Telemetry</h2>
+            <span id="test-status-pill" class="badge-status idle">Idle</span>
+          </div>
+
+          <div class="test-telemetry">
+            <!-- Progress Bar -->
+            <div class="progress-wrapper">
+              <div class="progress-labels">
+                <span>Progress: <strong id="telemetry-progress-text">0%</strong></span>
+                <span id="telemetry-time">Elapsed: 0ms</span>
+              </div>
+              <div class="progress-track">
+                <div id="telemetry-progress-bar" class="progress-fill" style="width: 0%;"></div>
+              </div>
+            </div>
+
+            <!-- Metric Boxes -->
+            <div class="telemetry-grid">
+              <div class="telem-box">
+                <span class="telem-label">Total Requests</span>
+                <span class="telem-val" id="telem-total">0</span>
+              </div>
+              <div class="telem-box success">
+                <span class="telem-label">Successful Purchases</span>
+                <span class="telem-val" id="telem-success">0</span>
+              </div>
+              <div class="telem-box warning">
+                <span class="telem-label">Out-of-Stock Denied</span>
+                <span class="telem-val" id="telem-failed">0</span>
+              </div>
+              <div class="telem-box">
+                <span class="telem-label">Stock (Before &rarr; After)</span>
+                <span class="telem-val" id="telem-stock">-- &rarr; --</span>
+              </div>
+            </div>
+
+            <div id="test-summary-message" class="info-alert hidden">
+              <!-- Summary of latest test -->
+            </div>
+          </div>
+
+          <!-- History Table -->
+          <div class="history-section">
+            <h3>Recent Test History</h3>
+            <div class="history-table-wrapper">
+              <table class="history-table">
+                <thead>
+                  <tr>
+                    <th>SKU</th>
+                    <th>Threads</th>
+                    <th>Success</th>
+                    <th>Denied</th>
+                    <th>Duration</th>
+                    <th>Result</th>
+                  </tr>
+                </thead>
+                <tbody id="test-history-tbody">
+                  <tr><td colspan="6" class="text-center">No tests executed yet.</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- TAB 3: SYSTEM LOGS -->
+    <main id="tab-logs" class="tab-content">
+      <div class="card logs-card">
+        <div class="card-header">
+          <div>
+            <h2>📜 Real-Time Audit & Activity Logs</h2>
+            <p class="card-desc">Track all function invocations, sales transactions, errors, and test simulations captured by <code>@Logger.log_activity</code>.</p>
+          </div>
+          <div class="log-actions">
+            <select id="log-filter-level" class="form-select">
+              <option value="ALL">All Levels</option>
+              <option value="INFO">INFO Only</option>
+              <option value="SUCCESS">SUCCESS Only</option>
+              <option value="ERROR">ERROR Only</option>
+            </select>
+            <input type="text" id="log-search" class="form-input" placeholder="Search log text...">
+            <label class="toggle-label">
+              <input type="checkbox" id="log-autoscroll" checked> Auto-Scroll
+            </label>
+            <button id="btn-refresh-logs" class="btn btn-secondary">🔄 Refresh</button>
+          </div>
+        </div>
+
+        <div class="terminal-container" id="terminal-logs">
+          <div class="terminal-placeholder">Connecting to log stream...</div>
+        </div>
+      </div>
+    </main>
+
+    <!-- MODAL 1: PRODUCT DETAILS & ATTRIBUTES -->
+    <div id="modal-product-details" class="modal-overlay hidden">
+      <div class="modal-box">
+        <div class="modal-header">
+          <div class="modal-title-group">
+            <h3 id="modal-product-name">Product Name</h3>
+            <span id="modal-product-sku" class="sku-tag">PROD-XXXX</span>
+          </div>
+          <button class="modal-close" data-close-modal>&times;</button>
+        </div>
+
+        <div class="modal-body">
+          <div class="detail-attributes-grid">
+            <div class="attr-item">
+              <span class="attr-label">Category</span>
+              <span class="attr-val" id="detail-category">--</span>
+            </div>
+            <div class="attr-item">
+              <span class="attr-label">Stock Status</span>
+              <span class="attr-val" id="detail-status">--</span>
+            </div>
+            <div class="attr-item">
+              <span class="attr-label">Unit Price</span>
+              <span class="attr-val" id="detail-price">--</span>
+            </div>
+            <div class="attr-item">
+              <span class="attr-label">Quantity in Stock</span>
+              <span class="attr-val" id="detail-qty">--</span>
+            </div>
+            <div class="attr-item col-span-2">
+              <span class="attr-label">Total Inventory Valuation</span>
+              <span class="attr-val accent-val" id="detail-total-val">--</span>
+            </div>
+            <div class="attr-item col-span-2">
+              <span class="attr-label">Description / Notes</span>
+              <p class="attr-desc" id="detail-desc">No description available.</p>
+            </div>
+          </div>
+
+          <!-- Quick Action Panels -->
+          <div class="modal-action-sections">
+            <!-- Sell / Restock Quick Forms -->
+            <div class="action-grid">
+              <div class="action-card">
+                <h4>🛒 Direct Sale</h4>
+                <div class="inline-form">
+                  <input type="number" id="quick-sell-amount" min="1" value="1" class="form-input">
+                  <button id="btn-quick-sell" class="btn btn-warning">Sell Units</button>
+                </div>
+              </div>
+
+              <div class="action-card">
+                <h4>📦 Restock Units</h4>
+                <div class="inline-form">
+                  <input type="number" id="quick-restock-amount" min="1" value="10" class="form-input">
+                  <button id="btn-quick-restock" class="btn btn-success">Restock</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Edit Attributes Toggle Accordion -->
+            <details class="edit-accordion">
+              <summary class="btn btn-secondary">✏️ Edit Product Attributes</summary>
+              <form id="form-edit-product" class="edit-form mt-4">
+                <div class="form-group">
+                  <label>Product Name:</label>
+                  <input type="text" id="edit-name" class="form-input" required>
+                </div>
+                <div class="form-row">
+                  <div class="form-group flex-1">
+                    <label>Price (₹):</label>
+                    <input type="number" id="edit-price" step="0.01" min="0" class="form-input" required>
+                  </div>
+                  <div class="form-group flex-1">
+                    <label>Category:</label>
+                    <input type="text" id="edit-category" class="form-input" required>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label>Description:</label>
+                  <textarea id="edit-desc" class="form-input" rows="2"></textarea>
+                </div>
+                <div class="edit-buttons">
+                  <button type="submit" class="btn btn-primary">Save Changes</button>
+                  <button type="button" id="btn-delete-product" class="btn btn-danger">Delete Product</button>
+                </div>
+              </form>
+            </details>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 2: ADD PRODUCT -->
+    <div id="modal-add-product" class="modal-overlay hidden">
+      <div class="modal-box">
+        <div class="modal-header">
+          <h3>+ Add New Product to Inventory</h3>
+          <button class="modal-close" data-close-modal>&times;</button>
+        </div>
+        <form id="form-add-product">
+          <div class="modal-body">
+            <div class="form-group">
+              <label for="add-sku">SKU Code (Must start with 'PROD-'):</label>
+              <input type="text" id="add-sku" class="form-input" placeholder="e.g. PROD-1053" required>
+              <small class="form-hint">Unique alphanumeric product identifier.</small>
+            </div>
+            <div class="form-group">
+              <label for="add-name">Product Name:</label>
+              <input type="text" id="add-name" class="form-input" placeholder="e.g. Ergonomic Office Chair" required>
+            </div>
+            <div class="form-row">
+              <div class="form-group flex-1">
+                <label for="add-price">Price (₹):</label>
+                <input type="number" id="add-price" step="0.01" min="0.01" class="form-input" placeholder="249.99" required>
+              </div>
+              <div class="form-group flex-1">
+                <label for="add-quantity">Initial Stock Quantity:</label>
+                <input type="number" id="add-quantity" min="0" class="form-input" placeholder="25" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="add-category">Category (Optional - auto-inferred if blank):</label>
+              <input type="text" id="add-category" class="form-input" placeholder="e.g. Furniture, Audio, Storage">
+            </div>
+            <div class="form-group">
+              <label for="add-description">Description / Notes:</label>
+              <textarea id="add-description" class="form-input" rows="2" placeholder="Optional notes..."></textarea>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-close-modal>Cancel</button>
+            <button type="submit" class="btn btn-primary">Create Product</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Toast Notification Container -->
+    <div id="toast-container" class="toast-container"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

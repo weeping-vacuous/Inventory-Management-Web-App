@@ -1,0 +1,1588 @@
+[2025-11-11 15:40:42] Calling function restock_product with args: ('PROD-laptop', 50) and kwargs: {}
+[2025-11-11 15:40:42] function restock_product failed with error: Product with SKU PROD-laptop not found in inventory
+[2025-11-11 15:41:21] Calling function add_product with args: (product('Laptop', 'PROD-laptop','65000.0', '50'),) and kwargs: {}
+[2025-11-11 15:41:21] Function add_product completed successfully
+[2025-11-11 15:44:06] Calling function add_product with args: (product('Laptop', 'PROD-laptop','65000.0', '50'),) and kwargs: {}
+[2025-11-11 15:44:06] Function add_product completed successfully
+[2025-11-11 15:44:51] Calling function sell_product with args: ('PROD-Laptop', 59) and kwargs: {}
+[2025-11-11 15:44:51] function sell_product failed with error: Product with SKU PROD-Laptop not found in inventory.
+[2025-11-11 15:45:17] Calling function sell_product with args: ('PROD-laptop', 67) and kwargs: {}
+[2025-11-11 15:45:17] function sell_product failed with error: Not enough stock of Laptop to sell 67. Current stock50
+[2025-11-11 15:45:53] Calling function add_product with args: (product('Laptop', 'PROD-laptop','65000.0', '50'),) and kwargs: {}
+[2025-11-11 15:45:53] Function add_product completed successfully
+[2025-11-11 15:46:18] Calling function sell_product with args: ('Prod-laptop', 34) and kwargs: {}
+[2025-11-11 15:46:18] function sell_product failed with error: Product with SKU Prod-laptop not found in inventory.
+[2025-11-11 15:46:32] Calling function sell_product with args: ('PROD-laptop', 34) and kwargs: {}
+[2025-11-11 15:46:32] Function sell_product completed successfully
+[2025-11-11 15:56:57] Calling function add_product with args: (product('Laptop', 'PROD-1001','1200.0', '10'),) and kwargs: {}
+[2025-11-11 15:56:57] Function add_product completed successfully
+[2025-11-11 15:56:57] Calling function add_product with args: (product('Wireless Mouse', 'PROD-1002','75.5', '50'),) and kwargs: {}
+[2025-11-11 15:56:57] Function add_product completed successfully
+[2025-11-11 15:56:57] Calling function add_product with args: (product('Mechanical Keyboard', 'PROD-1003','150.0', '25'),) and kwargs: {}
+[2025-11-11 15:56:57] Function add_product completed successfully
+[2025-11-11 15:56:57] Calling function add_product with args: (product('USB-C Hub', 'PROD-1004','45.99', '40'),) and kwargs: {}
+[2025-11-11 15:56:57] Function add_product completed successfully
+[2025-11-11 15:56:57] Calling function add_product with args: (product('4K Monitor', 'PROD-1005','349.99', '15'),) and kwargs: {}
+[2025-11-11 15:56:57] Function add_product completed successfully
+[2025-11-11 15:56:57] Calling function add_product with args: (product('Bluetooth Headphones', 'PROD-1006','199.0', '30'),) and kwargs: {}
+[2025-11-11 15:56:57] Function add_product completed successfully
+[2025-11-11 15:56:57] Calling function add_product with args: (product('Smart Watch', 'PROD-1007','249.5', '22'),) and kwargs: {}
+[2025-11-11 15:56:57] Function add_product completed successfully
+[2025-11-11 15:56:57] Calling function add_product with args: (product('Portable SSD (1TB)', 'PROD-1008','129.99', '18'),) and kwargs: {}
+[2025-11-11 15:56:57] Function add_product completed successfully
+[2025-11-11 15:56:57] Calling function add_product with args: (product('Noise Cancelling Earbuds', 'PROD-1009','179.0', '35'),) and kwargs: {}
+[2025-11-11 15:56:57] Function add_product completed successfully
+[2025-11-11 15:56:57] Calling function add_product with args: (product('Smartphone', 'PROD-1010','899.0', '12'),) and kwargs: {}
+[2025-11-11 15:56:57] Function add_product completed successfully
+[2025-11-11 15:56:57] Calling function add_product with args: (product('Stapler', 'PROD-2001','12.5', '150'),) and kwargs: {}
+[2025-11-11 15:56:57] Function add_product completed successfully
+[2025-11-11 15:56:57] Calling function add_product with args: (product('Printer Paper (500 sheets)', 'PROD-2002','9.99', '300'),) and kwargs: {}
+[2025-11-11 15:56:57] Function add_product completed successfully
+[2025-11-11 15:56:57] Calling function add_product with args: (product('Gel Pens (12-Pack)', 'PROD-2003','15.0', '200'),) and kwargs: {}
+[2025-11-11 15:56:57] Function add_product completed successfully
+[2025-11-11 15:56:57] Calling function add_product with args: (product('Sticky Notes (6-Pack)', 'PROD-2004','7.8', '400'),) and kwargs: {}
+[2025-11-11 15:56:57] Function add_product completed successfully
+[2025-11-11 15:56:57] Calling function add_product with args: (product('Whiteboard Markers (4-Pack)', 'PROD-2005','6.5', '120'),) and kwargs: {}
+[2025-11-11 15:56:57] Function add_product completed successfully
+[2025-11-11 15:56:57] Calling function add_product with args: (product('Ergonomic Chair', 'PROD-2006','275.0', '10'),) and kwargs: {}
+[2025-11-11 15:56:57] Function add_product completed successfully
+[2025-11-11 15:56:57] Calling function add_product with args: (product('Desk Lamp', 'PROD-2007','35.0', '30'),) and kwargs: {}
+[2025-11-11 15:56:57] Function add_product completed successfully
+[2025-11-11 15:56:57] Calling function add_product with args: (product('File Folders (100-Pack)', 'PROD-2008','18.25', '80'),) and kwargs: {}
+[2025-11-11 15:56:57] Function add_product completed successfully
+[2025-11-11 15:56:57] Calling function add_product with args: (product('Three-Ring Binder', 'PROD-2009','4.5', '100'),) and kwargs: {}
+[2025-11-11 15:56:57] Function add_product completed successfully
+[2025-11-11 15:56:57] Calling function add_product with args: (product('Paper Clips (Box)', 'PROD-2010','2.99', '500'),) and kwargs: {}
+[2025-11-11 15:56:57] Function add_product completed successfully
+[2025-11-11 15:56:57] Calling function add_product with args: (product('Coffee Maker', 'PROD-3001','89.99', '20'),) and kwargs: {}
+[2025-11-11 15:56:57] Function add_product completed successfully
+[2025-11-11 15:56:57] Calling function add_product with args: (product('Blender', 'PROD-3002','45.0', '30'),) and kwargs: {}
+[2025-11-11 15:56:57] Function add_product completed successfully
+[2025-11-11 15:56:57] Calling function add_product with args: (product('Air Fryer', 'PROD-3003','110.0', '15'),) and kwargs: {}
+[2025-11-11 15:56:57] Function add_product completed successfully
+[2025-11-11 15:56:57] Calling function add_product with args: (product('Set of Knives', 'PROD-3004','80.0', '25'),) and kwargs: {}
+[2025-11-11 15:56:57] Function add_product completed successfully
+[2025-11-11 15:56:57] Calling function add_product with args: (product('Non-Stick Pan', 'PROD-3005','32.5', '40'),) and kwargs: {}
+[2025-11-11 15:56:57] Function add_product completed successfully
+[2025-11-11 15:56:57] Calling function add_product with args: (product('Bath Towel Set', 'PROD-3006','49.99', '50'),) and kwargs: {}
+[2025-11-11 15:56:57] Function add_product completed successfully
+[2025-11-11 15:56:57] Calling function add_product with args: (product('Queen Sheet Set', 'PROD-3007','65.0', '35'),) and kwargs: {}
+[2025-11-11 15:56:57] Function add_product completed successfully
+[2025-11-11 15:56:57] Calling function add_product with args: (product('Vacuum Cleaner', 'PROD-3008','199.0', '12'),) and kwargs: {}
+[2025-11-11 15:56:57] Function add_product completed successfully
+[2025-11-11 15:56:57] Calling function add_product with args: (product('Shower Curtain', 'PROD-3009','22.0', '60'),) and kwargs: {}
+[2025-11-11 15:56:57] Function add_product completed successfully
+[2025-11-11 15:56:57] Calling function add_product with args: (product('Cutlery Set (20-Piece)', 'PROD-3010','55.0', '28'),) and kwargs: {}
+[2025-11-11 15:56:57] Function add_product completed successfully
+[2025-11-11 15:56:57] Calling function add_product with args: (product('Olive Oil (500ml)', 'PROD-4001','14.99', '100'),) and kwargs: {}
+[2025-11-11 15:56:57] Function add_product completed successfully
+[2025-11-11 15:56:57] Calling function add_product with args: (product('Pasta (Box)', 'PROD-4002','2.5', '300'),) and kwargs: {}
+[2025-11-11 15:56:57] Function add_product completed successfully
+[2025-11-11 15:56:57] Calling function add_product with args: (product('Tomato Sauce (Jar)', 'PROD-4003','3.2', '250'),) and kwargs: {}
+[2025-11-11 15:56:57] Function add_product completed successfully
+[2025-11-11 15:56:57] Calling function add_product with args: (product('Cereal (Box)', 'PROD-4004','4.8', '150'),) and kwargs: {}
+[2025-11-11 15:56:57] Function add_product completed successfully
+[2025-11-11 15:56:57] Calling function add_product with args: (product('Coffee Beans (Bag)', 'PROD-4005','16.0', '80'),) and kwargs: {}
+[2025-11-11 15:56:57] Function add_product completed successfully
+[2025-11-11 15:56:57] Calling function add_product with args: (product('Peanut Butter (Jar)', 'PROD-4006','5.5', '130'),) and kwargs: {}
+[2025-11-11 15:56:57] Function add_product completed successfully
+[2025-11-11 15:56:57] Calling function add_product with args: (product('All-Purpose Flour (5lb)', 'PROD-4007','4.2', '90'),) and kwargs: {}
+[2025-11-11 15:56:57] Function add_product completed successfully
+[2025-11-11 15:56:57] Calling function add_product with args: (product('Granola Bars (Box of 12)', 'PROD-4008','8.99', '110'),) and kwargs: {}
+[2025-11-11 15:56:57] Function add_product completed successfully
+[2025-11-11 15:56:57] Calling function add_product with args: (product('Black Beans (Can)', 'PROD-4009','1.5', '400'),) and kwargs: {}
+[2025-11-11 15:56:57] Function add_product completed successfully
+[2025-11-11 15:56:57] Calling function add_product with args: (product('Jasmine Rice (Bag)', 'PROD-4010','18.0', '70'),) and kwargs: {}
+[2025-11-11 15:56:57] Function add_product completed successfully
+[2025-11-11 15:56:57] Calling function add_product with args: (product('Men's T-Shirt (Large, Blue)', 'PROD-5001','25.0', '75'),) and kwargs: {}
+[2025-11-11 15:56:57] Function add_product completed successfully
+[2025-11-11 15:56:57] Calling function add_product with args: (product('Women's Jeans (Size 8)', 'PROD-5002','59.99', '45'),) and kwargs: {}
+[2025-11-11 15:56:57] Function add_product completed successfully
+[2025-11-11 15:56:57] Calling function add_product with args: (product('Running Shoes (Men's 10)', 'PROD-5003','120.0', '30'),) and kwargs: {}
+[2025-11-11 15:56:57] Function add_product completed successfully
+[2025-11-11 15:56:57] Calling function add_product with args: (product('Winter Coat (Medium)', 'PROD-5004','180.0', '20'),) and kwargs: {}
+[2025-11-11 15:56:57] Function add_product completed successfully
+[2025-11-11 15:56:57] Calling function add_product with args: (product('Beanie Hat', 'PROD-5005','18.0', '60'),) and kwargs: {}
+[2025-11-11 15:56:57] Function add_product completed successfully
+[2025-11-11 15:56:57] Calling function add_product with args: (product('Wool Socks (3-Pack)', 'PROD-5006','22.0', '80'),) and kwargs: {}
+[2025-11-11 15:56:57] Function add_product completed successfully
+[2025-11-11 15:56:57] Calling function add_product with args: (product('Leather Belt', 'PROD-5007','40.0', '40'),) and kwargs: {}
+[2025-11-11 15:56:57] Function add_product completed successfully
+[2025-11-11 15:56:57] Calling function add_product with args: (product('Hooded Sweatshirt (Large)', 'PROD-5008','55.0', '50'),) and kwargs: {}
+[2025-11-11 15:56:57] Function add_product completed successfully
+[2025-11-11 15:56:57] Calling function add_product with args: (product('Polo Shirt (Medium, Red)', 'PROD-5009','35.0', '65'),) and kwargs: {}
+[2025-11-11 15:56:57] Function add_product completed successfully
+[2025-11-11 15:56:57] Calling function add_product with args: (product('Rain Jacket (Large)', 'PROD-5010','90.0', '25'),) and kwargs: {}
+[2025-11-11 15:56:57] Function add_product completed successfully
+[2025-11-11 15:58:47] Calling function restock_product with args: ('PROD-5011', 50) and kwargs: {}
+[2025-11-11 15:58:47] function restock_product failed with error: Product with SKU PROD-5011 not found in inventory
+[2025-11-11 15:59:06] Calling function add_product with args: (product('Headphones', 'PROD-5011','100.0', '50'),) and kwargs: {}
+[2025-11-11 15:59:06] Function add_product completed successfully
+[2025-11-11 16:26:45] Calling function add_product with args: (product('Laptop', 'PROD-1001','1200.0', '10'),) and kwargs: {}
+[2025-11-11 16:26:45] Function add_product completed successfully
+[2025-11-11 16:26:45] Calling function add_product with args: (product('Wireless Mouse', 'PROD-1002','75.5', '150'),) and kwargs: {}
+[2025-11-11 16:26:45] Function add_product completed successfully
+[2025-11-11 16:26:45] Calling function add_product with args: (product('Mechanical Keyboard', 'PROD-1003','150.0', '25'),) and kwargs: {}
+[2025-11-11 16:26:45] Function add_product completed successfully
+[2025-11-11 16:26:45] Calling function add_product with args: (product('USB-C Hub', 'PROD-1004','45.99', '40'),) and kwargs: {}
+[2025-11-11 16:26:45] Function add_product completed successfully
+[2025-11-11 16:26:45] Calling function add_product with args: (product('4K Monitor', 'PROD-1005','349.99', '15'),) and kwargs: {}
+[2025-11-11 16:26:45] Function add_product completed successfully
+[2025-11-11 16:26:45] Calling function add_product with args: (product('Bluetooth Headphones', 'PROD-1006','199.0', '30'),) and kwargs: {}
+[2025-11-11 16:26:45] Function add_product completed successfully
+[2025-11-11 16:26:45] Calling function add_product with args: (product('Smart Watch', 'PROD-1007','249.5', '22'),) and kwargs: {}
+[2025-11-11 16:26:45] Function add_product completed successfully
+[2025-11-11 16:26:45] Calling function add_product with args: (product('Portable SSD (1TB)', 'PROD-1008','129.99', '18'),) and kwargs: {}
+[2025-11-11 16:26:45] Function add_product completed successfully
+[2025-11-11 16:26:45] Calling function add_product with args: (product('Noise Cancelling Earbuds', 'PROD-1009','179.0', '35'),) and kwargs: {}
+[2025-11-11 16:26:45] Function add_product completed successfully
+[2025-11-11 16:26:45] Calling function add_product with args: (product('Smartphone', 'PROD-1010','899.0', '12'),) and kwargs: {}
+[2025-11-11 16:26:45] Function add_product completed successfully
+[2025-11-11 16:26:45] Calling function add_product with args: (product('Stapler', 'PROD-2001','12.5', '150'),) and kwargs: {}
+[2025-11-11 16:26:45] Function add_product completed successfully
+[2025-11-11 16:26:45] Calling function add_product with args: (product('Printer Paper (500 sheets)', 'PROD-2002','9.99', '300'),) and kwargs: {}
+[2025-11-11 16:26:45] Function add_product completed successfully
+[2025-11-11 16:26:45] Calling function add_product with args: (product('Gel Pens (12-Pack)', 'PROD-2003','15.0', '200'),) and kwargs: {}
+[2025-11-11 16:26:45] Function add_product completed successfully
+[2025-11-11 16:26:45] Calling function add_product with args: (product('Sticky Notes (6-Pack)', 'PROD-2004','7.8', '400'),) and kwargs: {}
+[2025-11-11 16:26:45] Function add_product completed successfully
+[2025-11-11 16:26:45] Calling function add_product with args: (product('Whiteboard Markers (4-Pack)', 'PROD-2005','6.5', '120'),) and kwargs: {}
+[2025-11-11 16:26:45] Function add_product completed successfully
+[2025-11-11 16:26:45] Calling function add_product with args: (product('Ergonomic Chair', 'PROD-2006','275.0', '10'),) and kwargs: {}
+[2025-11-11 16:26:45] Function add_product completed successfully
+[2025-11-11 16:26:45] Calling function add_product with args: (product('Desk Lamp', 'PROD-2007','35.0', '30'),) and kwargs: {}
+[2025-11-11 16:26:45] Function add_product completed successfully
+[2025-11-11 16:26:45] Calling function add_product with args: (product('File Folders (100-Pack)', 'PROD-2008','18.25', '80'),) and kwargs: {}
+[2025-11-11 16:26:45] Function add_product completed successfully
+[2025-11-11 16:26:45] Calling function add_product with args: (product('Three-Ring Binder', 'PROD-2009','4.5', '100'),) and kwargs: {}
+[2025-11-11 16:26:45] Function add_product completed successfully
+[2025-11-11 16:26:45] Calling function add_product with args: (product('Paper Clips (Box)', 'PROD-2010','2.99', '500'),) and kwargs: {}
+[2025-11-11 16:26:45] Function add_product completed successfully
+[2025-11-11 16:26:45] Calling function add_product with args: (product('Coffee Maker', 'PROD-3001','89.99', '20'),) and kwargs: {}
+[2025-11-11 16:26:45] Function add_product completed successfully
+[2025-11-11 16:26:45] Calling function add_product with args: (product('Blender', 'PROD-3002','45.0', '30'),) and kwargs: {}
+[2025-11-11 16:26:45] Function add_product completed successfully
+[2025-11-11 16:26:45] Calling function add_product with args: (product('Air Fryer', 'PROD-3003','110.0', '15'),) and kwargs: {}
+[2025-11-11 16:26:45] Function add_product completed successfully
+[2025-11-11 16:26:45] Calling function add_product with args: (product('Set of Knives', 'PROD-3004','80.0', '25'),) and kwargs: {}
+[2025-11-11 16:26:45] Function add_product completed successfully
+[2025-11-11 16:26:45] Calling function add_product with args: (product('Non-Stick Pan', 'PROD-3005','32.5', '40'),) and kwargs: {}
+[2025-11-11 16:26:45] Function add_product completed successfully
+[2025-11-11 16:26:45] Calling function add_product with args: (product('Bath Towel Set', 'PROD-3006','49.99', '50'),) and kwargs: {}
+[2025-11-11 16:26:45] Function add_product completed successfully
+[2025-11-11 16:26:45] Calling function add_product with args: (product('Queen Sheet Set', 'PROD-3007','65.0', '35'),) and kwargs: {}
+[2025-11-11 16:26:45] Function add_product completed successfully
+[2025-11-11 16:26:45] Calling function add_product with args: (product('Vacuum Cleaner', 'PROD-3008','199.0', '12'),) and kwargs: {}
+[2025-11-11 16:26:45] Function add_product completed successfully
+[2025-11-11 16:26:45] Calling function add_product with args: (product('Shower Curtain', 'PROD-3009','22.0', '60'),) and kwargs: {}
+[2025-11-11 16:26:45] Function add_product completed successfully
+[2025-11-11 16:26:45] Calling function add_product with args: (product('Cutlery Set (20-Piece)', 'PROD-3010','55.0', '28'),) and kwargs: {}
+[2025-11-11 16:26:45] Function add_product completed successfully
+[2025-11-11 16:26:45] Calling function add_product with args: (product('Olive Oil (500ml)', 'PROD-4001','14.99', '100'),) and kwargs: {}
+[2025-11-11 16:26:45] Function add_product completed successfully
+[2025-11-11 16:26:45] Calling function add_product with args: (product('Pasta (Box)', 'PROD-4002','2.5', '300'),) and kwargs: {}
+[2025-11-11 16:26:45] Function add_product completed successfully
+[2025-11-11 16:26:45] Calling function add_product with args: (product('Tomato Sauce (Jar)', 'PROD-4003','3.2', '250'),) and kwargs: {}
+[2025-11-11 16:26:45] Function add_product completed successfully
+[2025-11-11 16:26:45] Calling function add_product with args: (product('Cereal (Box)', 'PROD-4004','4.8', '150'),) and kwargs: {}
+[2025-11-11 16:26:45] Function add_product completed successfully
+[2025-11-11 16:26:45] Calling function add_product with args: (product('Coffee Beans (Bag)', 'PROD-4005','16.0', '80'),) and kwargs: {}
+[2025-11-11 16:26:45] Function add_product completed successfully
+[2025-11-11 16:26:45] Calling function add_product with args: (product('Peanut Butter (Jar)', 'PROD-4006','5.5', '130'),) and kwargs: {}
+[2025-11-11 16:26:45] Function add_product completed successfully
+[2025-11-11 16:26:45] Calling function add_product with args: (product('All-Purpose Flour (5lb)', 'PROD-4007','4.2', '90'),) and kwargs: {}
+[2025-11-11 16:26:45] Function add_product completed successfully
+[2025-11-11 16:26:45] Calling function add_product with args: (product('Granola Bars (Box of 12)', 'PROD-4008','8.99', '110'),) and kwargs: {}
+[2025-11-11 16:26:45] Function add_product completed successfully
+[2025-11-11 16:26:45] Calling function add_product with args: (product('Black Beans (Can)', 'PROD-4009','1.5', '400'),) and kwargs: {}
+[2025-11-11 16:26:45] Function add_product completed successfully
+[2025-11-11 16:26:45] Calling function add_product with args: (product('Jasmine Rice (Bag)', 'PROD-4010','18.0', '70'),) and kwargs: {}
+[2025-11-11 16:26:45] Function add_product completed successfully
+[2025-11-11 16:26:45] Calling function add_product with args: (product('Men's T-Shirt (Large, Blue)', 'PROD-5001','25.0', '75'),) and kwargs: {}
+[2025-11-11 16:26:45] Function add_product completed successfully
+[2025-11-11 16:26:45] Calling function add_product with args: (product('Women's Jeans (Size 8)', 'PROD-5002','59.99', '45'),) and kwargs: {}
+[2025-11-11 16:26:45] Function add_product completed successfully
+[2025-11-11 16:26:45] Calling function add_product with args: (product('Running Shoes (Men's 10)', 'PROD-5003','120.0', '30'),) and kwargs: {}
+[2025-11-11 16:26:45] Function add_product completed successfully
+[2025-11-11 16:26:45] Calling function add_product with args: (product('Winter Coat (Medium)', 'PROD-5004','180.0', '20'),) and kwargs: {}
+[2025-11-11 16:26:45] Function add_product completed successfully
+[2025-11-11 16:26:45] Calling function add_product with args: (product('Beanie Hat', 'PROD-5005','18.0', '60'),) and kwargs: {}
+[2025-11-11 16:26:45] Function add_product completed successfully
+[2025-11-11 16:26:45] Calling function add_product with args: (product('Wool Socks (3-Pack)', 'PROD-5006','22.0', '80'),) and kwargs: {}
+[2025-11-11 16:26:45] Function add_product completed successfully
+[2025-11-11 16:26:45] Calling function add_product with args: (product('Leather Belt', 'PROD-5007','40.0', '40'),) and kwargs: {}
+[2025-11-11 16:26:45] Function add_product completed successfully
+[2025-11-11 16:26:45] Calling function add_product with args: (product('Hooded Sweatshirt (Large)', 'PROD-5008','55.0', '50'),) and kwargs: {}
+[2025-11-11 16:26:45] Function add_product completed successfully
+[2025-11-11 16:26:45] Calling function add_product with args: (product('Polo Shirt (Medium, Red)', 'PROD-5009','35.0', '65'),) and kwargs: {}
+[2025-11-11 16:26:45] Function add_product completed successfully
+[2025-11-11 16:26:45] Calling function add_product with args: (product('Rain Jacket (Large)', 'PROD-5010','90.0', '25'),) and kwargs: {}
+[2025-11-11 16:26:45] Function add_product completed successfully
+[2025-11-11 16:26:45] Calling function add_product with args: (product('Headphones', 'PROD-5011','100.0', '50'),) and kwargs: {}
+[2025-11-11 16:26:45] Function add_product completed successfully
+[2025-11-11 16:32:18] Calling function add_product with args: (product('Laptop', 'PROD-1001','1200.0', '10'),) and kwargs: {}
+[2025-11-11 16:32:18] Function add_product completed successfully
+[2025-11-11 16:32:18] Calling function add_product with args: (product('Wireless Mouse', 'PROD-1002','75.5', '150'),) and kwargs: {}
+[2025-11-11 16:32:18] Function add_product completed successfully
+[2025-11-11 16:32:18] Calling function add_product with args: (product('Mechanical Keyboard', 'PROD-1003','150.0', '25'),) and kwargs: {}
+[2025-11-11 16:32:18] Function add_product completed successfully
+[2025-11-11 16:32:18] Calling function add_product with args: (product('USB-C Hub', 'PROD-1004','45.99', '40'),) and kwargs: {}
+[2025-11-11 16:32:18] Function add_product completed successfully
+[2025-11-11 16:32:18] Calling function add_product with args: (product('4K Monitor', 'PROD-1005','349.99', '15'),) and kwargs: {}
+[2025-11-11 16:32:18] Function add_product completed successfully
+[2025-11-11 16:32:18] Calling function add_product with args: (product('Bluetooth Headphones', 'PROD-1006','199.0', '30'),) and kwargs: {}
+[2025-11-11 16:32:18] Function add_product completed successfully
+[2025-11-11 16:32:18] Calling function add_product with args: (product('Smart Watch', 'PROD-1007','249.5', '22'),) and kwargs: {}
+[2025-11-11 16:32:18] Function add_product completed successfully
+[2025-11-11 16:32:18] Calling function add_product with args: (product('Portable SSD (1TB)', 'PROD-1008','129.99', '18'),) and kwargs: {}
+[2025-11-11 16:32:18] Function add_product completed successfully
+[2025-11-11 16:32:18] Calling function add_product with args: (product('Noise Cancelling Earbuds', 'PROD-1009','179.0', '35'),) and kwargs: {}
+[2025-11-11 16:32:18] Function add_product completed successfully
+[2025-11-11 16:32:18] Calling function add_product with args: (product('Smartphone', 'PROD-1010','899.0', '12'),) and kwargs: {}
+[2025-11-11 16:32:18] Function add_product completed successfully
+[2025-11-11 16:32:18] Calling function add_product with args: (product('Stapler', 'PROD-2001','12.5', '150'),) and kwargs: {}
+[2025-11-11 16:32:18] Function add_product completed successfully
+[2025-11-11 16:32:18] Calling function add_product with args: (product('Printer Paper (500 sheets)', 'PROD-2002','9.99', '300'),) and kwargs: {}
+[2025-11-11 16:32:18] Function add_product completed successfully
+[2025-11-11 16:32:18] Calling function add_product with args: (product('Gel Pens (12-Pack)', 'PROD-2003','15.0', '200'),) and kwargs: {}
+[2025-11-11 16:32:18] Function add_product completed successfully
+[2025-11-11 16:32:18] Calling function add_product with args: (product('Sticky Notes (6-Pack)', 'PROD-2004','7.8', '400'),) and kwargs: {}
+[2025-11-11 16:32:18] Function add_product completed successfully
+[2025-11-11 16:32:18] Calling function add_product with args: (product('Whiteboard Markers (4-Pack)', 'PROD-2005','6.5', '120'),) and kwargs: {}
+[2025-11-11 16:32:18] Function add_product completed successfully
+[2025-11-11 16:32:18] Calling function add_product with args: (product('Ergonomic Chair', 'PROD-2006','275.0', '10'),) and kwargs: {}
+[2025-11-11 16:32:18] Function add_product completed successfully
+[2025-11-11 16:32:18] Calling function add_product with args: (product('Desk Lamp', 'PROD-2007','35.0', '30'),) and kwargs: {}
+[2025-11-11 16:32:18] Function add_product completed successfully
+[2025-11-11 16:32:18] Calling function add_product with args: (product('File Folders (100-Pack)', 'PROD-2008','18.25', '80'),) and kwargs: {}
+[2025-11-11 16:32:18] Function add_product completed successfully
+[2025-11-11 16:32:18] Calling function add_product with args: (product('Three-Ring Binder', 'PROD-2009','4.5', '100'),) and kwargs: {}
+[2025-11-11 16:32:18] Function add_product completed successfully
+[2025-11-11 16:32:18] Calling function add_product with args: (product('Paper Clips (Box)', 'PROD-2010','2.99', '500'),) and kwargs: {}
+[2025-11-11 16:32:18] Function add_product completed successfully
+[2025-11-11 16:32:18] Calling function add_product with args: (product('Coffee Maker', 'PROD-3001','89.99', '20'),) and kwargs: {}
+[2025-11-11 16:32:18] Function add_product completed successfully
+[2025-11-11 16:32:18] Calling function add_product with args: (product('Blender', 'PROD-3002','45.0', '30'),) and kwargs: {}
+[2025-11-11 16:32:18] Function add_product completed successfully
+[2025-11-11 16:32:18] Calling function add_product with args: (product('Air Fryer', 'PROD-3003','110.0', '15'),) and kwargs: {}
+[2025-11-11 16:32:18] Function add_product completed successfully
+[2025-11-11 16:32:18] Calling function add_product with args: (product('Set of Knives', 'PROD-3004','80.0', '25'),) and kwargs: {}
+[2025-11-11 16:32:18] Function add_product completed successfully
+[2025-11-11 16:32:18] Calling function add_product with args: (product('Non-Stick Pan', 'PROD-3005','32.5', '40'),) and kwargs: {}
+[2025-11-11 16:32:18] Function add_product completed successfully
+[2025-11-11 16:32:18] Calling function add_product with args: (product('Bath Towel Set', 'PROD-3006','49.99', '50'),) and kwargs: {}
+[2025-11-11 16:32:18] Function add_product completed successfully
+[2025-11-11 16:32:18] Calling function add_product with args: (product('Queen Sheet Set', 'PROD-3007','65.0', '35'),) and kwargs: {}
+[2025-11-11 16:32:18] Function add_product completed successfully
+[2025-11-11 16:32:18] Calling function add_product with args: (product('Vacuum Cleaner', 'PROD-3008','199.0', '12'),) and kwargs: {}
+[2025-11-11 16:32:18] Function add_product completed successfully
+[2025-11-11 16:32:18] Calling function add_product with args: (product('Shower Curtain', 'PROD-3009','22.0', '60'),) and kwargs: {}
+[2025-11-11 16:32:18] Function add_product completed successfully
+[2025-11-11 16:32:18] Calling function add_product with args: (product('Cutlery Set (20-Piece)', 'PROD-3010','55.0', '28'),) and kwargs: {}
+[2025-11-11 16:32:18] Function add_product completed successfully
+[2025-11-11 16:32:18] Calling function add_product with args: (product('Olive Oil (500ml)', 'PROD-4001','14.99', '100'),) and kwargs: {}
+[2025-11-11 16:32:18] Function add_product completed successfully
+[2025-11-11 16:32:18] Calling function add_product with args: (product('Pasta (Box)', 'PROD-4002','2.5', '300'),) and kwargs: {}
+[2025-11-11 16:32:18] Function add_product completed successfully
+[2025-11-11 16:32:18] Calling function add_product with args: (product('Tomato Sauce (Jar)', 'PROD-4003','3.2', '250'),) and kwargs: {}
+[2025-11-11 16:32:18] Function add_product completed successfully
+[2025-11-11 16:32:18] Calling function add_product with args: (product('Cereal (Box)', 'PROD-4004','4.8', '150'),) and kwargs: {}
+[2025-11-11 16:32:18] Function add_product completed successfully
+[2025-11-11 16:32:18] Calling function add_product with args: (product('Coffee Beans (Bag)', 'PROD-4005','16.0', '80'),) and kwargs: {}
+[2025-11-11 16:32:18] Function add_product completed successfully
+[2025-11-11 16:32:18] Calling function add_product with args: (product('Peanut Butter (Jar)', 'PROD-4006','5.5', '130'),) and kwargs: {}
+[2025-11-11 16:32:18] Function add_product completed successfully
+[2025-11-11 16:32:18] Calling function add_product with args: (product('All-Purpose Flour (5lb)', 'PROD-4007','4.2', '90'),) and kwargs: {}
+[2025-11-11 16:32:18] Function add_product completed successfully
+[2025-11-11 16:32:18] Calling function add_product with args: (product('Granola Bars (Box of 12)', 'PROD-4008','8.99', '110'),) and kwargs: {}
+[2025-11-11 16:32:18] Function add_product completed successfully
+[2025-11-11 16:32:18] Calling function add_product with args: (product('Black Beans (Can)', 'PROD-4009','1.5', '400'),) and kwargs: {}
+[2025-11-11 16:32:18] Function add_product completed successfully
+[2025-11-11 16:32:18] Calling function add_product with args: (product('Jasmine Rice (Bag)', 'PROD-4010','18.0', '70'),) and kwargs: {}
+[2025-11-11 16:32:18] Function add_product completed successfully
+[2025-11-11 16:32:18] Calling function add_product with args: (product('Men's T-Shirt (Large, Blue)', 'PROD-5001','25.0', '75'),) and kwargs: {}
+[2025-11-11 16:32:18] Function add_product completed successfully
+[2025-11-11 16:32:18] Calling function add_product with args: (product('Women's Jeans (Size 8)', 'PROD-5002','59.99', '45'),) and kwargs: {}
+[2025-11-11 16:32:18] Function add_product completed successfully
+[2025-11-11 16:32:18] Calling function add_product with args: (product('Running Shoes (Men's 10)', 'PROD-5003','120.0', '30'),) and kwargs: {}
+[2025-11-11 16:32:18] Function add_product completed successfully
+[2025-11-11 16:32:18] Calling function add_product with args: (product('Winter Coat (Medium)', 'PROD-5004','180.0', '20'),) and kwargs: {}
+[2025-11-11 16:32:18] Function add_product completed successfully
+[2025-11-11 16:32:18] Calling function add_product with args: (product('Beanie Hat', 'PROD-5005','18.0', '60'),) and kwargs: {}
+[2025-11-11 16:32:18] Function add_product completed successfully
+[2025-11-11 16:32:18] Calling function add_product with args: (product('Wool Socks (3-Pack)', 'PROD-5006','22.0', '80'),) and kwargs: {}
+[2025-11-11 16:32:18] Function add_product completed successfully
+[2025-11-11 16:32:18] Calling function add_product with args: (product('Leather Belt', 'PROD-5007','40.0', '40'),) and kwargs: {}
+[2025-11-11 16:32:18] Function add_product completed successfully
+[2025-11-11 16:32:18] Calling function add_product with args: (product('Hooded Sweatshirt (Large)', 'PROD-5008','55.0', '50'),) and kwargs: {}
+[2025-11-11 16:32:18] Function add_product completed successfully
+[2025-11-11 16:32:18] Calling function add_product with args: (product('Polo Shirt (Medium, Red)', 'PROD-5009','35.0', '65'),) and kwargs: {}
+[2025-11-11 16:32:18] Function add_product completed successfully
+[2025-11-11 16:32:18] Calling function add_product with args: (product('Rain Jacket (Large)', 'PROD-5010','90.0', '25'),) and kwargs: {}
+[2025-11-11 16:32:18] Function add_product completed successfully
+[2025-11-11 16:32:18] Calling function add_product with args: (product('Headphones', 'PROD-5011','100.0', '50'),) and kwargs: {}
+[2025-11-11 16:32:18] Function add_product completed successfully
+[2025-11-11 16:34:30] Calling function add_product with args: (product('Laptop', 'PROD-1001','1200.0', '10'),) and kwargs: {}
+[2025-11-11 16:34:30] Function add_product completed successfully
+[2025-11-11 16:34:30] Calling function add_product with args: (product('Wireless Mouse', 'PROD-1002','75.5', '150'),) and kwargs: {}
+[2025-11-11 16:34:30] Function add_product completed successfully
+[2025-11-11 16:34:30] Calling function add_product with args: (product('Mechanical Keyboard', 'PROD-1003','150.0', '25'),) and kwargs: {}
+[2025-11-11 16:34:30] Function add_product completed successfully
+[2025-11-11 16:34:30] Calling function add_product with args: (product('USB-C Hub', 'PROD-1004','45.99', '40'),) and kwargs: {}
+[2025-11-11 16:34:30] Function add_product completed successfully
+[2025-11-11 16:34:30] Calling function add_product with args: (product('4K Monitor', 'PROD-1005','349.99', '15'),) and kwargs: {}
+[2025-11-11 16:34:30] Function add_product completed successfully
+[2025-11-11 16:34:30] Calling function add_product with args: (product('Bluetooth Headphones', 'PROD-1006','199.0', '30'),) and kwargs: {}
+[2025-11-11 16:34:30] Function add_product completed successfully
+[2025-11-11 16:34:30] Calling function add_product with args: (product('Smart Watch', 'PROD-1007','249.5', '22'),) and kwargs: {}
+[2025-11-11 16:34:30] Function add_product completed successfully
+[2025-11-11 16:34:30] Calling function add_product with args: (product('Portable SSD (1TB)', 'PROD-1008','129.99', '18'),) and kwargs: {}
+[2025-11-11 16:34:30] Function add_product completed successfully
+[2025-11-11 16:34:30] Calling function add_product with args: (product('Noise Cancelling Earbuds', 'PROD-1009','179.0', '35'),) and kwargs: {}
+[2025-11-11 16:34:30] Function add_product completed successfully
+[2025-11-11 16:34:30] Calling function add_product with args: (product('Smartphone', 'PROD-1010','899.0', '12'),) and kwargs: {}
+[2025-11-11 16:34:30] Function add_product completed successfully
+[2025-11-11 16:34:30] Calling function add_product with args: (product('Stapler', 'PROD-2001','12.5', '150'),) and kwargs: {}
+[2025-11-11 16:34:30] Function add_product completed successfully
+[2025-11-11 16:34:30] Calling function add_product with args: (product('Printer Paper (500 sheets)', 'PROD-2002','9.99', '300'),) and kwargs: {}
+[2025-11-11 16:34:30] Function add_product completed successfully
+[2025-11-11 16:34:30] Calling function add_product with args: (product('Gel Pens (12-Pack)', 'PROD-2003','15.0', '200'),) and kwargs: {}
+[2025-11-11 16:34:30] Function add_product completed successfully
+[2025-11-11 16:34:30] Calling function add_product with args: (product('Sticky Notes (6-Pack)', 'PROD-2004','7.8', '400'),) and kwargs: {}
+[2025-11-11 16:34:30] Function add_product completed successfully
+[2025-11-11 16:34:30] Calling function add_product with args: (product('Whiteboard Markers (4-Pack)', 'PROD-2005','6.5', '120'),) and kwargs: {}
+[2025-11-11 16:34:30] Function add_product completed successfully
+[2025-11-11 16:34:30] Calling function add_product with args: (product('Ergonomic Chair', 'PROD-2006','275.0', '10'),) and kwargs: {}
+[2025-11-11 16:34:30] Function add_product completed successfully
+[2025-11-11 16:34:30] Calling function add_product with args: (product('Desk Lamp', 'PROD-2007','35.0', '30'),) and kwargs: {}
+[2025-11-11 16:34:30] Function add_product completed successfully
+[2025-11-11 16:34:30] Calling function add_product with args: (product('File Folders (100-Pack)', 'PROD-2008','18.25', '80'),) and kwargs: {}
+[2025-11-11 16:34:30] Function add_product completed successfully
+[2025-11-11 16:34:30] Calling function add_product with args: (product('Three-Ring Binder', 'PROD-2009','4.5', '100'),) and kwargs: {}
+[2025-11-11 16:34:30] Function add_product completed successfully
+[2025-11-11 16:34:30] Calling function add_product with args: (product('Paper Clips (Box)', 'PROD-2010','2.99', '500'),) and kwargs: {}
+[2025-11-11 16:34:30] Function add_product completed successfully
+[2025-11-11 16:34:30] Calling function add_product with args: (product('Coffee Maker', 'PROD-3001','89.99', '20'),) and kwargs: {}
+[2025-11-11 16:34:30] Function add_product completed successfully
+[2025-11-11 16:34:30] Calling function add_product with args: (product('Blender', 'PROD-3002','45.0', '30'),) and kwargs: {}
+[2025-11-11 16:34:30] Function add_product completed successfully
+[2025-11-11 16:34:30] Calling function add_product with args: (product('Air Fryer', 'PROD-3003','110.0', '15'),) and kwargs: {}
+[2025-11-11 16:34:30] Function add_product completed successfully
+[2025-11-11 16:34:30] Calling function add_product with args: (product('Set of Knives', 'PROD-3004','80.0', '25'),) and kwargs: {}
+[2025-11-11 16:34:30] Function add_product completed successfully
+[2025-11-11 16:34:30] Calling function add_product with args: (product('Non-Stick Pan', 'PROD-3005','32.5', '40'),) and kwargs: {}
+[2025-11-11 16:34:30] Function add_product completed successfully
+[2025-11-11 16:34:30] Calling function add_product with args: (product('Bath Towel Set', 'PROD-3006','49.99', '50'),) and kwargs: {}
+[2025-11-11 16:34:30] Function add_product completed successfully
+[2025-11-11 16:34:31] Calling function add_product with args: (product('Queen Sheet Set', 'PROD-3007','65.0', '35'),) and kwargs: {}
+[2025-11-11 16:34:31] Function add_product completed successfully
+[2025-11-11 16:34:31] Calling function add_product with args: (product('Vacuum Cleaner', 'PROD-3008','199.0', '12'),) and kwargs: {}
+[2025-11-11 16:34:31] Function add_product completed successfully
+[2025-11-11 16:34:31] Calling function add_product with args: (product('Shower Curtain', 'PROD-3009','22.0', '60'),) and kwargs: {}
+[2025-11-11 16:34:31] Function add_product completed successfully
+[2025-11-11 16:34:31] Calling function add_product with args: (product('Cutlery Set (20-Piece)', 'PROD-3010','55.0', '28'),) and kwargs: {}
+[2025-11-11 16:34:31] Function add_product completed successfully
+[2025-11-11 16:34:31] Calling function add_product with args: (product('Olive Oil (500ml)', 'PROD-4001','14.99', '100'),) and kwargs: {}
+[2025-11-11 16:34:31] Function add_product completed successfully
+[2025-11-11 16:34:31] Calling function add_product with args: (product('Pasta (Box)', 'PROD-4002','2.5', '300'),) and kwargs: {}
+[2025-11-11 16:34:31] Function add_product completed successfully
+[2025-11-11 16:34:31] Calling function add_product with args: (product('Tomato Sauce (Jar)', 'PROD-4003','3.2', '250'),) and kwargs: {}
+[2025-11-11 16:34:31] Function add_product completed successfully
+[2025-11-11 16:34:31] Calling function add_product with args: (product('Cereal (Box)', 'PROD-4004','4.8', '150'),) and kwargs: {}
+[2025-11-11 16:34:31] Function add_product completed successfully
+[2025-11-11 16:34:31] Calling function add_product with args: (product('Coffee Beans (Bag)', 'PROD-4005','16.0', '80'),) and kwargs: {}
+[2025-11-11 16:34:31] Function add_product completed successfully
+[2025-11-11 16:34:31] Calling function add_product with args: (product('Peanut Butter (Jar)', 'PROD-4006','5.5', '130'),) and kwargs: {}
+[2025-11-11 16:34:31] Function add_product completed successfully
+[2025-11-11 16:34:31] Calling function add_product with args: (product('All-Purpose Flour (5lb)', 'PROD-4007','4.2', '90'),) and kwargs: {}
+[2025-11-11 16:34:31] Function add_product completed successfully
+[2025-11-11 16:34:31] Calling function add_product with args: (product('Granola Bars (Box of 12)', 'PROD-4008','8.99', '110'),) and kwargs: {}
+[2025-11-11 16:34:31] Function add_product completed successfully
+[2025-11-11 16:34:31] Calling function add_product with args: (product('Black Beans (Can)', 'PROD-4009','1.5', '400'),) and kwargs: {}
+[2025-11-11 16:34:31] Function add_product completed successfully
+[2025-11-11 16:34:31] Calling function add_product with args: (product('Jasmine Rice (Bag)', 'PROD-4010','18.0', '70'),) and kwargs: {}
+[2025-11-11 16:34:31] Function add_product completed successfully
+[2025-11-11 16:34:31] Calling function add_product with args: (product('Men's T-Shirt (Large, Blue)', 'PROD-5001','25.0', '75'),) and kwargs: {}
+[2025-11-11 16:34:31] Function add_product completed successfully
+[2025-11-11 16:34:31] Calling function add_product with args: (product('Women's Jeans (Size 8)', 'PROD-5002','59.99', '45'),) and kwargs: {}
+[2025-11-11 16:34:31] Function add_product completed successfully
+[2025-11-11 16:34:31] Calling function add_product with args: (product('Running Shoes (Men's 10)', 'PROD-5003','120.0', '30'),) and kwargs: {}
+[2025-11-11 16:34:31] Function add_product completed successfully
+[2025-11-11 16:34:31] Calling function add_product with args: (product('Winter Coat (Medium)', 'PROD-5004','180.0', '20'),) and kwargs: {}
+[2025-11-11 16:34:31] Function add_product completed successfully
+[2025-11-11 16:34:31] Calling function add_product with args: (product('Beanie Hat', 'PROD-5005','18.0', '60'),) and kwargs: {}
+[2025-11-11 16:34:31] Function add_product completed successfully
+[2025-11-11 16:34:31] Calling function add_product with args: (product('Wool Socks (3-Pack)', 'PROD-5006','22.0', '80'),) and kwargs: {}
+[2025-11-11 16:34:31] Function add_product completed successfully
+[2025-11-11 16:34:31] Calling function add_product with args: (product('Leather Belt', 'PROD-5007','40.0', '40'),) and kwargs: {}
+[2025-11-11 16:34:31] Function add_product completed successfully
+[2025-11-11 16:34:31] Calling function add_product with args: (product('Hooded Sweatshirt (Large)', 'PROD-5008','55.0', '50'),) and kwargs: {}
+[2025-11-11 16:34:31] Function add_product completed successfully
+[2025-11-11 16:34:31] Calling function add_product with args: (product('Polo Shirt (Medium, Red)', 'PROD-5009','35.0', '65'),) and kwargs: {}
+[2025-11-11 16:34:31] Function add_product completed successfully
+[2025-11-11 16:34:31] Calling function add_product with args: (product('Rain Jacket (Large)', 'PROD-5010','90.0', '25'),) and kwargs: {}
+[2025-11-11 16:34:31] Function add_product completed successfully
+[2025-11-11 16:34:31] Calling function add_product with args: (product('Headphones', 'PROD-5011','100.0', '50'),) and kwargs: {}
+[2025-11-11 16:34:31] Function add_product completed successfully
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Function sell_product completed successfully
+D-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Function sell_product completed successfully
+D-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Function sell_product completed successfully
+D-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Function sell_product completed successfully
+D-1002', 1) and kwargs: {}
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 16:34:34] Function sell_product completed successfully
+[2025-11-11 19:30:35] Calling function add_product with args: (product('Laptop', 'PROD-1001','1200.0', '10'),) and kwargs: {}
+[2025-11-11 19:30:35] Function add_product completed successfully
+[2025-11-11 19:30:36] Calling function add_product with args: (product('Wireless Mouse', 'PROD-1002','75.5', '50'),) and kwargs: {}
+[2025-11-11 19:30:36] Function add_product completed successfully
+[2025-11-11 19:30:36] Calling function add_product with args: (product('Mechanical Keyboard', 'PROD-1003','150.0', '25'),) and kwargs: {}
+[2025-11-11 19:30:36] Function add_product completed successfully
+[2025-11-11 19:30:36] Calling function add_product with args: (product('USB-C Hub', 'PROD-1004','45.99', '40'),) and kwargs: {}
+[2025-11-11 19:30:36] Function add_product completed successfully
+[2025-11-11 19:30:36] Calling function add_product with args: (product('4K Monitor', 'PROD-1005','349.99', '15'),) and kwargs: {}
+[2025-11-11 19:30:36] Function add_product completed successfully
+[2025-11-11 19:30:36] Calling function add_product with args: (product('Bluetooth Headphones', 'PROD-1006','199.0', '30'),) and kwargs: {}
+[2025-11-11 19:30:36] Function add_product completed successfully
+[2025-11-11 19:30:36] Calling function add_product with args: (product('Smart Watch', 'PROD-1007','249.5', '22'),) and kwargs: {}
+[2025-11-11 19:30:36] Function add_product completed successfully
+[2025-11-11 19:30:36] Calling function add_product with args: (product('Portable SSD (1TB)', 'PROD-1008','129.99', '18'),) and kwargs: {}
+[2025-11-11 19:30:36] Function add_product completed successfully
+[2025-11-11 19:30:36] Calling function add_product with args: (product('Noise Cancelling Earbuds', 'PROD-1009','179.0', '35'),) and kwargs: {}
+[2025-11-11 19:30:36] Function add_product completed successfully
+[2025-11-11 19:30:36] Calling function add_product with args: (product('Smartphone', 'PROD-1010','899.0', '12'),) and kwargs: {}
+[2025-11-11 19:30:36] Function add_product completed successfully
+[2025-11-11 19:30:36] Calling function add_product with args: (product('Stapler', 'PROD-2001','12.5', '150'),) and kwargs: {}
+[2025-11-11 19:30:36] Function add_product completed successfully
+[2025-11-11 19:30:36] Calling function add_product with args: (product('Printer Paper (500 sheets)', 'PROD-2002','9.99', '300'),) and kwargs: {}
+[2025-11-11 19:30:36] Function add_product completed successfully
+[2025-11-11 19:30:36] Calling function add_product with args: (product('Gel Pens (12-Pack)', 'PROD-2003','15.0', '200'),) and kwargs: {}
+[2025-11-11 19:30:36] Function add_product completed successfully
+[2025-11-11 19:30:36] Calling function add_product with args: (product('Sticky Notes (6-Pack)', 'PROD-2004','7.8', '400'),) and kwargs: {}
+[2025-11-11 19:30:36] Function add_product completed successfully
+[2025-11-11 19:30:36] Calling function add_product with args: (product('Whiteboard Markers (4-Pack)', 'PROD-2005','6.5', '120'),) and kwargs: {}
+[2025-11-11 19:30:36] Function add_product completed successfully
+[2025-11-11 19:30:36] Calling function add_product with args: (product('Ergonomic Chair', 'PROD-2006','275.0', '10'),) and kwargs: {}
+[2025-11-11 19:30:36] Function add_product completed successfully
+[2025-11-11 19:30:36] Calling function add_product with args: (product('Desk Lamp', 'PROD-2007','35.0', '30'),) and kwargs: {}
+[2025-11-11 19:30:36] Function add_product completed successfully
+[2025-11-11 19:30:36] Calling function add_product with args: (product('File Folders (100-Pack)', 'PROD-2008','18.25', '80'),) and kwargs: {}
+[2025-11-11 19:30:36] Function add_product completed successfully
+[2025-11-11 19:30:36] Calling function add_product with args: (product('Three-Ring Binder', 'PROD-2009','4.5', '100'),) and kwargs: {}
+[2025-11-11 19:30:36] Function add_product completed successfully
+[2025-11-11 19:30:36] Calling function add_product with args: (product('Paper Clips (Box)', 'PROD-2010','2.99', '500'),) and kwargs: {}
+[2025-11-11 19:30:36] Function add_product completed successfully
+[2025-11-11 19:30:36] Calling function add_product with args: (product('Coffee Maker', 'PROD-3001','89.99', '20'),) and kwargs: {}
+[2025-11-11 19:30:36] Function add_product completed successfully
+[2025-11-11 19:30:36] Calling function add_product with args: (product('Blender', 'PROD-3002','45.0', '30'),) and kwargs: {}
+[2025-11-11 19:30:36] Function add_product completed successfully
+[2025-11-11 19:30:36] Calling function add_product with args: (product('Air Fryer', 'PROD-3003','110.0', '15'),) and kwargs: {}
+[2025-11-11 19:30:36] Function add_product completed successfully
+[2025-11-11 19:30:36] Calling function add_product with args: (product('Set of Knives', 'PROD-3004','80.0', '25'),) and kwargs: {}
+[2025-11-11 19:30:36] Function add_product completed successfully
+[2025-11-11 19:30:36] Calling function add_product with args: (product('Non-Stick Pan', 'PROD-3005','32.5', '40'),) and kwargs: {}
+[2025-11-11 19:30:36] Function add_product completed successfully
+[2025-11-11 19:30:36] Calling function add_product with args: (product('Bath Towel Set', 'PROD-3006','49.99', '50'),) and kwargs: {}
+[2025-11-11 19:30:36] Function add_product completed successfully
+[2025-11-11 19:30:36] Calling function add_product with args: (product('Queen Sheet Set', 'PROD-3007','65.0', '35'),) and kwargs: {}
+[2025-11-11 19:30:36] Function add_product completed successfully
+[2025-11-11 19:30:36] Calling function add_product with args: (product('Vacuum Cleaner', 'PROD-3008','199.0', '12'),) and kwargs: {}
+[2025-11-11 19:30:36] Function add_product completed successfully
+[2025-11-11 19:30:36] Calling function add_product with args: (product('Shower Curtain', 'PROD-3009','22.0', '60'),) and kwargs: {}
+[2025-11-11 19:30:36] Function add_product completed successfully
+[2025-11-11 19:30:36] Calling function add_product with args: (product('Cutlery Set (20-Piece)', 'PROD-3010','55.0', '28'),) and kwargs: {}
+[2025-11-11 19:30:36] Function add_product completed successfully
+[2025-11-11 19:30:36] Calling function add_product with args: (product('Olive Oil (500ml)', 'PROD-4001','14.99', '100'),) and kwargs: {}
+[2025-11-11 19:30:36] Function add_product completed successfully
+[2025-11-11 19:30:36] Calling function add_product with args: (product('Pasta (Box)', 'PROD-4002','2.5', '300'),) and kwargs: {}
+[2025-11-11 19:30:36] Function add_product completed successfully
+[2025-11-11 19:30:36] Calling function add_product with args: (product('Tomato Sauce (Jar)', 'PROD-4003','3.2', '250'),) and kwargs: {}
+[2025-11-11 19:30:36] Function add_product completed successfully
+[2025-11-11 19:30:36] Calling function add_product with args: (product('Cereal (Box)', 'PROD-4004','4.8', '150'),) and kwargs: {}
+[2025-11-11 19:30:36] Function add_product completed successfully
+[2025-11-11 19:30:36] Calling function add_product with args: (product('Coffee Beans (Bag)', 'PROD-4005','16.0', '80'),) and kwargs: {}
+[2025-11-11 19:30:36] Function add_product completed successfully
+[2025-11-11 19:30:36] Calling function add_product with args: (product('Peanut Butter (Jar)', 'PROD-4006','5.5', '130'),) and kwargs: {}
+[2025-11-11 19:30:36] Function add_product completed successfully
+[2025-11-11 19:30:36] Calling function add_product with args: (product('All-Purpose Flour (5lb)', 'PROD-4007','4.2', '90'),) and kwargs: {}
+[2025-11-11 19:30:36] Function add_product completed successfully
+[2025-11-11 19:30:36] Calling function add_product with args: (product('Granola Bars (Box of 12)', 'PROD-4008','8.99', '110'),) and kwargs: {}
+[2025-11-11 19:30:36] Function add_product completed successfully
+[2025-11-11 19:30:36] Calling function add_product with args: (product('Black Beans (Can)', 'PROD-4009','1.5', '400'),) and kwargs: {}
+[2025-11-11 19:30:36] Function add_product completed successfully
+[2025-11-11 19:30:36] Calling function add_product with args: (product('Jasmine Rice (Bag)', 'PROD-4010','18.0', '70'),) and kwargs: {}
+[2025-11-11 19:30:36] Function add_product completed successfully
+[2025-11-11 19:30:36] Calling function add_product with args: (product('Men's T-Shirt (Large, Blue)', 'PROD-5001','25.0', '75'),) and kwargs: {}
+[2025-11-11 19:30:36] Function add_product completed successfully
+[2025-11-11 19:30:36] Calling function add_product with args: (product('Women's Jeans (Size 8)', 'PROD-5002','59.99', '45'),) and kwargs: {}
+[2025-11-11 19:30:36] Function add_product completed successfully
+[2025-11-11 19:30:36] Calling function add_product with args: (product('Running Shoes (Men's 10)', 'PROD-5003','120.0', '30'),) and kwargs: {}
+[2025-11-11 19:30:36] Function add_product completed successfully
+[2025-11-11 19:30:36] Calling function add_product with args: (product('Winter Coat (Medium)', 'PROD-5004','180.0', '20'),) and kwargs: {}
+[2025-11-11 19:30:36] Function add_product completed successfully
+[2025-11-11 19:30:36] Calling function add_product with args: (product('Beanie Hat', 'PROD-5005','18.0', '60'),) and kwargs: {}
+[2025-11-11 19:30:36] Function add_product completed successfully
+[2025-11-11 19:30:36] Calling function add_product with args: (product('Wool Socks (3-Pack)', 'PROD-5006','22.0', '80'),) and kwargs: {}
+[2025-11-11 19:30:36] Function add_product completed successfully
+[2025-11-11 19:30:36] Calling function add_product with args: (product('Leather Belt', 'PROD-5007','40.0', '40'),) and kwargs: {}
+[2025-11-11 19:30:36] Function add_product completed successfully
+[2025-11-11 19:30:36] Calling function add_product with args: (product('Hooded Sweatshirt (Large)', 'PROD-5008','55.0', '50'),) and kwargs: {}
+[2025-11-11 19:30:36] Function add_product completed successfully
+[2025-11-11 19:30:36] Calling function add_product with args: (product('Polo Shirt (Medium, Red)', 'PROD-5009','35.0', '65'),) and kwargs: {}
+[2025-11-11 19:30:36] Function add_product completed successfully
+[2025-11-11 19:30:36] Calling function add_product with args: (product('Rain Jacket (Large)', 'PROD-5010','90.0', '25'),) and kwargs: {}
+[2025-11-11 19:30:36] Function add_product completed successfully
+[2025-11-11 19:30:36] Calling function add_product with args: (product('Headphones', 'PROD-5011','100.0', '50'),) and kwargs: {}
+[2025-11-11 19:30:36] Function add_product completed successfully
+[2025-11-11 19:31:13] Calling function sell_product with args: ('PROD-1003', 12) and kwargs: {}
+[2025-11-11 19:31:13] Function sell_product completed successfully
+[2025-11-11 20:10:36] Calling function add_product with args: (product('Laptop', 'PROD-1001','1200.0', '10'),) and kwargs: {}
+[2025-11-11 20:10:36] Function add_product completed successfully
+[2025-11-11 20:10:36] Calling function add_product with args: (product('Wireless Mouse', 'PROD-1002','75.5', '50'),) and kwargs: {}
+[2025-11-11 20:10:36] Function add_product completed successfully
+[2025-11-11 20:10:36] Calling function add_product with args: (product('Mechanical Keyboard', 'PROD-1003','150.0', '13'),) and kwargs: {}
+[2025-11-11 20:10:36] Function add_product completed successfully
+[2025-11-11 20:10:36] Calling function add_product with args: (product('USB-C Hub', 'PROD-1004','45.99', '40'),) and kwargs: {}
+[2025-11-11 20:10:36] Function add_product completed successfully
+[2025-11-11 20:10:36] Calling function add_product with args: (product('4K Monitor', 'PROD-1005','349.99', '15'),) and kwargs: {}
+[2025-11-11 20:10:36] Function add_product completed successfully
+[2025-11-11 20:10:36] Calling function add_product with args: (product('Bluetooth Headphones', 'PROD-1006','199.0', '30'),) and kwargs: {}
+[2025-11-11 20:10:36] Function add_product completed successfully
+[2025-11-11 20:10:36] Calling function add_product with args: (product('Smart Watch', 'PROD-1007','249.5', '22'),) and kwargs: {}
+[2025-11-11 20:10:36] Function add_product completed successfully
+[2025-11-11 20:10:36] Calling function add_product with args: (product('Portable SSD (1TB)', 'PROD-1008','129.99', '18'),) and kwargs: {}
+[2025-11-11 20:10:36] Function add_product completed successfully
+[2025-11-11 20:10:36] Calling function add_product with args: (product('Noise Cancelling Earbuds', 'PROD-1009','179.0', '35'),) and kwargs: {}
+[2025-11-11 20:10:36] Function add_product completed successfully
+[2025-11-11 20:10:36] Calling function add_product with args: (product('Smartphone', 'PROD-1010','899.0', '12'),) and kwargs: {}
+[2025-11-11 20:10:36] Function add_product completed successfully
+[2025-11-11 20:10:36] Calling function add_product with args: (product('Stapler', 'PROD-2001','12.5', '150'),) and kwargs: {}
+[2025-11-11 20:10:36] Function add_product completed successfully
+[2025-11-11 20:10:36] Calling function add_product with args: (product('Printer Paper (500 sheets)', 'PROD-2002','9.99', '300'),) and kwargs: {}
+[2025-11-11 20:10:36] Function add_product completed successfully
+[2025-11-11 20:10:36] Calling function add_product with args: (product('Gel Pens (12-Pack)', 'PROD-2003','15.0', '200'),) and kwargs: {}
+[2025-11-11 20:10:36] Function add_product completed successfully
+[2025-11-11 20:10:36] Calling function add_product with args: (product('Sticky Notes (6-Pack)', 'PROD-2004','7.8', '400'),) and kwargs: {}
+[2025-11-11 20:10:36] Function add_product completed successfully
+[2025-11-11 20:10:36] Calling function add_product with args: (product('Whiteboard Markers (4-Pack)', 'PROD-2005','6.5', '120'),) and kwargs: {}
+[2025-11-11 20:10:36] Function add_product completed successfully
+[2025-11-11 20:10:36] Calling function add_product with args: (product('Ergonomic Chair', 'PROD-2006','275.0', '10'),) and kwargs: {}
+[2025-11-11 20:10:36] Function add_product completed successfully
+[2025-11-11 20:10:36] Calling function add_product with args: (product('Desk Lamp', 'PROD-2007','35.0', '30'),) and kwargs: {}
+[2025-11-11 20:10:36] Function add_product completed successfully
+[2025-11-11 20:10:36] Calling function add_product with args: (product('File Folders (100-Pack)', 'PROD-2008','18.25', '80'),) and kwargs: {}
+[2025-11-11 20:10:36] Function add_product completed successfully
+[2025-11-11 20:10:36] Calling function add_product with args: (product('Three-Ring Binder', 'PROD-2009','4.5', '100'),) and kwargs: {}
+[2025-11-11 20:10:36] Function add_product completed successfully
+[2025-11-11 20:10:36] Calling function add_product with args: (product('Paper Clips (Box)', 'PROD-2010','2.99', '500'),) and kwargs: {}
+[2025-11-11 20:10:36] Function add_product completed successfully
+[2025-11-11 20:10:36] Calling function add_product with args: (product('Coffee Maker', 'PROD-3001','89.99', '20'),) and kwargs: {}
+[2025-11-11 20:10:36] Function add_product completed successfully
+[2025-11-11 20:10:36] Calling function add_product with args: (product('Blender', 'PROD-3002','45.0', '30'),) and kwargs: {}
+[2025-11-11 20:10:36] Function add_product completed successfully
+[2025-11-11 20:10:36] Calling function add_product with args: (product('Air Fryer', 'PROD-3003','110.0', '15'),) and kwargs: {}
+[2025-11-11 20:10:36] Function add_product completed successfully
+[2025-11-11 20:10:36] Calling function add_product with args: (product('Set of Knives', 'PROD-3004','80.0', '25'),) and kwargs: {}
+[2025-11-11 20:10:36] Function add_product completed successfully
+[2025-11-11 20:10:36] Calling function add_product with args: (product('Non-Stick Pan', 'PROD-3005','32.5', '40'),) and kwargs: {}
+[2025-11-11 20:10:36] Function add_product completed successfully
+[2025-11-11 20:10:36] Calling function add_product with args: (product('Bath Towel Set', 'PROD-3006','49.99', '50'),) and kwargs: {}
+[2025-11-11 20:10:36] Function add_product completed successfully
+[2025-11-11 20:10:36] Calling function add_product with args: (product('Queen Sheet Set', 'PROD-3007','65.0', '35'),) and kwargs: {}
+[2025-11-11 20:10:36] Function add_product completed successfully
+[2025-11-11 20:10:36] Calling function add_product with args: (product('Vacuum Cleaner', 'PROD-3008','199.0', '12'),) and kwargs: {}
+[2025-11-11 20:10:36] Function add_product completed successfully
+[2025-11-11 20:10:36] Calling function add_product with args: (product('Shower Curtain', 'PROD-3009','22.0', '60'),) and kwargs: {}
+[2025-11-11 20:10:36] Function add_product completed successfully
+[2025-11-11 20:10:36] Calling function add_product with args: (product('Cutlery Set (20-Piece)', 'PROD-3010','55.0', '28'),) and kwargs: {}
+[2025-11-11 20:10:36] Function add_product completed successfully
+[2025-11-11 20:10:36] Calling function add_product with args: (product('Olive Oil (500ml)', 'PROD-4001','14.99', '100'),) and kwargs: {}
+[2025-11-11 20:10:36] Function add_product completed successfully
+[2025-11-11 20:10:36] Calling function add_product with args: (product('Pasta (Box)', 'PROD-4002','2.5', '300'),) and kwargs: {}
+[2025-11-11 20:10:36] Function add_product completed successfully
+[2025-11-11 20:10:36] Calling function add_product with args: (product('Tomato Sauce (Jar)', 'PROD-4003','3.2', '250'),) and kwargs: {}
+[2025-11-11 20:10:36] Function add_product completed successfully
+[2025-11-11 20:10:36] Calling function add_product with args: (product('Cereal (Box)', 'PROD-4004','4.8', '150'),) and kwargs: {}
+[2025-11-11 20:10:36] Function add_product completed successfully
+[2025-11-11 20:10:36] Calling function add_product with args: (product('Coffee Beans (Bag)', 'PROD-4005','16.0', '80'),) and kwargs: {}
+[2025-11-11 20:10:36] Function add_product completed successfully
+[2025-11-11 20:10:36] Calling function add_product with args: (product('Peanut Butter (Jar)', 'PROD-4006','5.5', '130'),) and kwargs: {}
+[2025-11-11 20:10:36] Function add_product completed successfully
+[2025-11-11 20:10:36] Calling function add_product with args: (product('All-Purpose Flour (5lb)', 'PROD-4007','4.2', '90'),) and kwargs: {}
+[2025-11-11 20:10:36] Function add_product completed successfully
+[2025-11-11 20:10:36] Calling function add_product with args: (product('Granola Bars (Box of 12)', 'PROD-4008','8.99', '110'),) and kwargs: {}
+[2025-11-11 20:10:36] Function add_product completed successfully
+[2025-11-11 20:10:36] Calling function add_product with args: (product('Black Beans (Can)', 'PROD-4009','1.5', '400'),) and kwargs: {}
+[2025-11-11 20:10:36] Function add_product completed successfully
+[2025-11-11 20:10:36] Calling function add_product with args: (product('Jasmine Rice (Bag)', 'PROD-4010','18.0', '70'),) and kwargs: {}
+[2025-11-11 20:10:36] Function add_product completed successfully
+[2025-11-11 20:10:36] Calling function add_product with args: (product('Men's T-Shirt (Large, Blue)', 'PROD-5001','25.0', '75'),) and kwargs: {}
+[2025-11-11 20:10:36] Function add_product completed successfully
+[2025-11-11 20:10:36] Calling function add_product with args: (product('Women's Jeans (Size 8)', 'PROD-5002','59.99', '45'),) and kwargs: {}
+[2025-11-11 20:10:36] Function add_product completed successfully
+[2025-11-11 20:10:36] Calling function add_product with args: (product('Running Shoes (Men's 10)', 'PROD-5003','120.0', '30'),) and kwargs: {}
+[2025-11-11 20:10:36] Function add_product completed successfully
+[2025-11-11 20:10:36] Calling function add_product with args: (product('Winter Coat (Medium)', 'PROD-5004','180.0', '20'),) and kwargs: {}
+[2025-11-11 20:10:36] Function add_product completed successfully
+[2025-11-11 20:10:36] Calling function add_product with args: (product('Beanie Hat', 'PROD-5005','18.0', '60'),) and kwargs: {}
+[2025-11-11 20:10:36] Function add_product completed successfully
+[2025-11-11 20:10:36] Calling function add_product with args: (product('Wool Socks (3-Pack)', 'PROD-5006','22.0', '80'),) and kwargs: {}
+[2025-11-11 20:10:36] Function add_product completed successfully
+[2025-11-11 20:10:36] Calling function add_product with args: (product('Leather Belt', 'PROD-5007','40.0', '40'),) and kwargs: {}
+[2025-11-11 20:10:36] Function add_product completed successfully
+[2025-11-11 20:10:36] Calling function add_product with args: (product('Hooded Sweatshirt (Large)', 'PROD-5008','55.0', '50'),) and kwargs: {}
+[2025-11-11 20:10:36] Function add_product completed successfully
+[2025-11-11 20:10:36] Calling function add_product with args: (product('Polo Shirt (Medium, Red)', 'PROD-5009','35.0', '65'),) and kwargs: {}
+[2025-11-11 20:10:36] Function add_product completed successfully
+[2025-11-11 20:10:36] Calling function add_product with args: (product('Rain Jacket (Large)', 'PROD-5010','90.0', '25'),) and kwargs: {}
+[2025-11-11 20:10:36] Function add_product completed successfully
+[2025-11-11 20:10:36] Calling function add_product with args: (product('Headphones', 'PROD-5011','100.0', '50'),) and kwargs: {}
+[2025-11-11 20:10:36] Function add_product completed successfully
+[2025-11-11 20:11:32] Calling function restock_product with args: ('PROD-5012', 1000) and kwargs: {}
+[2025-11-11 20:11:32] function restock_product failed with error: Product with SKU PROD-5012 not found in inventory
+[2025-11-11 20:12:10] Calling function add_product with args: (product('Shaker', 'PROD-5012','20.0', '1000'),) and kwargs: {}
+[2025-11-11 20:12:10] Function add_product completed successfully
+[2025-11-11 20:12:35] Calling function sell_product with args: ('PROD-5012', 100) and kwargs: {}
+[2025-11-11 20:12:35] Function sell_product completed successfully
+[2025-11-11 20:15:25] Calling function add_product with args: (product('Laptop', 'PROD-1001','1200.0', '10'),) and kwargs: {}
+[2025-11-11 20:15:25] Function add_product completed successfully
+[2025-11-11 20:15:25] Calling function add_product with args: (product('Wireless Mouse', 'PROD-1002','75.5', '150'),) and kwargs: {}
+[2025-11-11 20:15:25] Function add_product completed successfully
+[2025-11-11 20:15:25] Calling function add_product with args: (product('Mechanical Keyboard', 'PROD-1003','150.0', '13'),) and kwargs: {}
+[2025-11-11 20:15:25] Function add_product completed successfully
+[2025-11-11 20:15:25] Calling function add_product with args: (product('USB-C Hub', 'PROD-1004','45.99', '40'),) and kwargs: {}
+[2025-11-11 20:15:25] Function add_product completed successfully
+[2025-11-11 20:15:25] Calling function add_product with args: (product('4K Monitor', 'PROD-1005','349.99', '15'),) and kwargs: {}
+[2025-11-11 20:15:25] Function add_product completed successfully
+[2025-11-11 20:15:25] Calling function add_product with args: (product('Bluetooth Headphones', 'PROD-1006','199.0', '30'),) and kwargs: {}
+[2025-11-11 20:15:25] Function add_product completed successfully
+[2025-11-11 20:15:25] Calling function add_product with args: (product('Smart Watch', 'PROD-1007','249.5', '22'),) and kwargs: {}
+[2025-11-11 20:15:25] Function add_product completed successfully
+[2025-11-11 20:15:25] Calling function add_product with args: (product('Portable SSD (1TB)', 'PROD-1008','129.99', '18'),) and kwargs: {}
+[2025-11-11 20:15:25] Function add_product completed successfully
+[2025-11-11 20:15:25] Calling function add_product with args: (product('Noise Cancelling Earbuds', 'PROD-1009','179.0', '35'),) and kwargs: {}
+[2025-11-11 20:15:25] Function add_product completed successfully
+[2025-11-11 20:15:25] Calling function add_product with args: (product('Smartphone', 'PROD-1010','899.0', '12'),) and kwargs: {}
+[2025-11-11 20:15:25] Function add_product completed successfully
+[2025-11-11 20:15:25] Calling function add_product with args: (product('Stapler', 'PROD-2001','12.5', '150'),) and kwargs: {}
+[2025-11-11 20:15:25] Function add_product completed successfully
+[2025-11-11 20:15:25] Calling function add_product with args: (product('Printer Paper (500 sheets)', 'PROD-2002','9.99', '300'),) and kwargs: {}
+[2025-11-11 20:15:25] Function add_product completed successfully
+[2025-11-11 20:15:25] Calling function add_product with args: (product('Gel Pens (12-Pack)', 'PROD-2003','15.0', '200'),) and kwargs: {}
+[2025-11-11 20:15:25] Function add_product completed successfully
+[2025-11-11 20:15:25] Calling function add_product with args: (product('Sticky Notes (6-Pack)', 'PROD-2004','7.8', '400'),) and kwargs: {}
+[2025-11-11 20:15:25] Function add_product completed successfully
+[2025-11-11 20:15:25] Calling function add_product with args: (product('Whiteboard Markers (4-Pack)', 'PROD-2005','6.5', '120'),) and kwargs: {}
+[2025-11-11 20:15:25] Function add_product completed successfully
+[2025-11-11 20:15:25] Calling function add_product with args: (product('Ergonomic Chair', 'PROD-2006','275.0', '10'),) and kwargs: {}
+[2025-11-11 20:15:25] Function add_product completed successfully
+[2025-11-11 20:15:25] Calling function add_product with args: (product('Desk Lamp', 'PROD-2007','35.0', '30'),) and kwargs: {}
+[2025-11-11 20:15:25] Function add_product completed successfully
+[2025-11-11 20:15:25] Calling function add_product with args: (product('File Folders (100-Pack)', 'PROD-2008','18.25', '80'),) and kwargs: {}
+[2025-11-11 20:15:25] Function add_product completed successfully
+[2025-11-11 20:15:25] Calling function add_product with args: (product('Three-Ring Binder', 'PROD-2009','4.5', '100'),) and kwargs: {}
+[2025-11-11 20:15:25] Function add_product completed successfully
+[2025-11-11 20:15:25] Calling function add_product with args: (product('Paper Clips (Box)', 'PROD-2010','2.99', '500'),) and kwargs: {}
+[2025-11-11 20:15:25] Function add_product completed successfully
+[2025-11-11 20:15:25] Calling function add_product with args: (product('Coffee Maker', 'PROD-3001','89.99', '20'),) and kwargs: {}
+[2025-11-11 20:15:25] Function add_product completed successfully
+[2025-11-11 20:15:25] Calling function add_product with args: (product('Blender', 'PROD-3002','45.0', '30'),) and kwargs: {}
+[2025-11-11 20:15:25] Function add_product completed successfully
+[2025-11-11 20:15:25] Calling function add_product with args: (product('Air Fryer', 'PROD-3003','110.0', '15'),) and kwargs: {}
+[2025-11-11 20:15:25] Function add_product completed successfully
+[2025-11-11 20:15:25] Calling function add_product with args: (product('Set of Knives', 'PROD-3004','80.0', '25'),) and kwargs: {}
+[2025-11-11 20:15:25] Function add_product completed successfully
+[2025-11-11 20:15:25] Calling function add_product with args: (product('Non-Stick Pan', 'PROD-3005','32.5', '40'),) and kwargs: {}
+[2025-11-11 20:15:25] Function add_product completed successfully
+[2025-11-11 20:15:25] Calling function add_product with args: (product('Bath Towel Set', 'PROD-3006','49.99', '50'),) and kwargs: {}
+[2025-11-11 20:15:25] Function add_product completed successfully
+[2025-11-11 20:15:25] Calling function add_product with args: (product('Queen Sheet Set', 'PROD-3007','65.0', '35'),) and kwargs: {}
+[2025-11-11 20:15:25] Function add_product completed successfully
+[2025-11-11 20:15:25] Calling function add_product with args: (product('Vacuum Cleaner', 'PROD-3008','199.0', '12'),) and kwargs: {}
+[2025-11-11 20:15:25] Function add_product completed successfully
+[2025-11-11 20:15:25] Calling function add_product with args: (product('Shower Curtain', 'PROD-3009','22.0', '60'),) and kwargs: {}
+[2025-11-11 20:15:25] Function add_product completed successfully
+[2025-11-11 20:15:25] Calling function add_product with args: (product('Cutlery Set (20-Piece)', 'PROD-3010','55.0', '28'),) and kwargs: {}
+[2025-11-11 20:15:25] Function add_product completed successfully
+[2025-11-11 20:15:25] Calling function add_product with args: (product('Olive Oil (500ml)', 'PROD-4001','14.99', '100'),) and kwargs: {}
+[2025-11-11 20:15:25] Function add_product completed successfully
+[2025-11-11 20:15:25] Calling function add_product with args: (product('Pasta (Box)', 'PROD-4002','2.5', '300'),) and kwargs: {}
+[2025-11-11 20:15:25] Function add_product completed successfully
+[2025-11-11 20:15:25] Calling function add_product with args: (product('Tomato Sauce (Jar)', 'PROD-4003','3.2', '250'),) and kwargs: {}
+[2025-11-11 20:15:25] Function add_product completed successfully
+[2025-11-11 20:15:25] Calling function add_product with args: (product('Cereal (Box)', 'PROD-4004','4.8', '150'),) and kwargs: {}
+[2025-11-11 20:15:25] Function add_product completed successfully
+[2025-11-11 20:15:25] Calling function add_product with args: (product('Coffee Beans (Bag)', 'PROD-4005','16.0', '80'),) and kwargs: {}
+[2025-11-11 20:15:25] Function add_product completed successfully
+[2025-11-11 20:15:25] Calling function add_product with args: (product('Peanut Butter (Jar)', 'PROD-4006','5.5', '130'),) and kwargs: {}
+[2025-11-11 20:15:25] Function add_product completed successfully
+[2025-11-11 20:15:25] Calling function add_product with args: (product('All-Purpose Flour (5lb)', 'PROD-4007','4.2', '90'),) and kwargs: {}
+[2025-11-11 20:15:25] Function add_product completed successfully
+[2025-11-11 20:15:25] Calling function add_product with args: (product('Granola Bars (Box of 12)', 'PROD-4008','8.99', '110'),) and kwargs: {}
+[2025-11-11 20:15:25] Function add_product completed successfully
+[2025-11-11 20:15:25] Calling function add_product with args: (product('Black Beans (Can)', 'PROD-4009','1.5', '400'),) and kwargs: {}
+[2025-11-11 20:15:25] Function add_product completed successfully
+[2025-11-11 20:15:25] Calling function add_product with args: (product('Jasmine Rice (Bag)', 'PROD-4010','18.0', '70'),) and kwargs: {}
+[2025-11-11 20:15:25] Function add_product completed successfully
+[2025-11-11 20:15:25] Calling function add_product with args: (product('Men's T-Shirt (Large, Blue)', 'PROD-5001','25.0', '75'),) and kwargs: {}
+[2025-11-11 20:15:25] Function add_product completed successfully
+[2025-11-11 20:15:25] Calling function add_product with args: (product('Women's Jeans (Size 8)', 'PROD-5002','59.99', '45'),) and kwargs: {}
+[2025-11-11 20:15:25] Function add_product completed successfully
+[2025-11-11 20:15:25] Calling function add_product with args: (product('Running Shoes (Men's 10)', 'PROD-5003','120.0', '30'),) and kwargs: {}
+[2025-11-11 20:15:25] Function add_product completed successfully
+[2025-11-11 20:15:25] Calling function add_product with args: (product('Winter Coat (Medium)', 'PROD-5004','180.0', '20'),) and kwargs: {}
+[2025-11-11 20:15:25] Function add_product completed successfully
+[2025-11-11 20:15:25] Calling function add_product with args: (product('Beanie Hat', 'PROD-5005','18.0', '60'),) and kwargs: {}
+[2025-11-11 20:15:25] Function add_product completed successfully
+[2025-11-11 20:15:25] Calling function add_product with args: (product('Wool Socks (3-Pack)', 'PROD-5006','22.0', '80'),) and kwargs: {}
+[2025-11-11 20:15:25] Function add_product completed successfully
+[2025-11-11 20:15:25] Calling function add_product with args: (product('Leather Belt', 'PROD-5007','40.0', '40'),) and kwargs: {}
+[2025-11-11 20:15:25] Function add_product completed successfully
+[2025-11-11 20:15:25] Calling function add_product with args: (product('Hooded Sweatshirt (Large)', 'PROD-5008','55.0', '50'),) and kwargs: {}
+[2025-11-11 20:15:25] Function add_product completed successfully
+[2025-11-11 20:15:25] Calling function add_product with args: (product('Polo Shirt (Medium, Red)', 'PROD-5009','35.0', '65'),) and kwargs: {}
+[2025-11-11 20:15:25] Function add_product completed successfully
+[2025-11-11 20:15:25] Calling function add_product with args: (product('Rain Jacket (Large)', 'PROD-5010','90.0', '25'),) and kwargs: {}
+[2025-11-11 20:15:25] Function add_product completed successfully
+[2025-11-11 20:15:25] Calling function add_product with args: (product('Headphones', 'PROD-5011','100.0', '50'),) and kwargs: {}
+[2025-11-11 20:15:25] Function add_product completed successfully
+[2025-11-11 20:15:25] Calling function add_product with args: (product('Shaker', 'PROD-5012','20.0', '900'),) and kwargs: {}
+[2025-11-11 20:15:25] Function add_product completed successfully
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Function sell_product completed successfully
+D-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Function sell_product completed successfully
+D-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Calling function sell_product with args: ('PROD-1002', 1) and kwargs: {}
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2025-11-11 20:15:31] Function sell_product completed successfully
+[2026-10-28 20:02:46] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 2) and kwargs: {}
+[2026-10-28 20:02:46] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:02:46] [INFO] Calling function 'restock_product' with args: ('PROD-1002', 5) and kwargs: {}
+[2026-10-28 20:02:46] [SUCCESS] Function 'restock_product' completed successfully
+[2026-10-28 20:02:46] [INFO] [TEST RUN 627ab454] Started concurrency stress test: 20 customers buying SKU PROD-1002
+[2026-10-28 20:02:46] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:02:46] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:02:46] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:02:46] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:02:46] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:02:46] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:02:46] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:02:46] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:02:46] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:02:46] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:02:46] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:02:46] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:02:46] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:02:46] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:02:46] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:02:46] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:02:46] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:02:46] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:02:46] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:02:46] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:02:46] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:02:46] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:02:46] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:02:46] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:02:46] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:02:46] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:02:46] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:02:46] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:02:46] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:02:46] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:02:46] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:02:46] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:02:46] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:02:46] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:02:46] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:02:46] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:02:46] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:02:46] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:02:46] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:02:46] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:02:46] [SUCCESS] [TEST RUN 627ab454] Completed in 22.12ms. Success: 20, Out of stock: 0, Remaining stock: 33
+[2026-10-28 20:08:41] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 5) and kwargs: {}
+[2026-10-28 20:08:41] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:08:44] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 8) and kwargs: {}
+[2026-10-28 20:08:44] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:08:46] [INFO] Calling function 'restock_product' with args: ('PROD-1006', 10) and kwargs: {}
+[2026-10-28 20:08:46] [SUCCESS] Function 'restock_product' completed successfully
+[2026-10-28 20:09:06] [INFO] [TEST RUN 56927816] Started concurrency stress test: 100 customers buying SKU PROD-1006
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [INFO] Calling function 'sell_product' with args: ('PROD-1006', 1) and kwargs: {}
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Bluetooth Headphones' (SKU: PROD-1006) to sell 1. Current stock: 0
+[2026-10-28 20:09:06] [SUCCESS] [TEST RUN 56927816] Completed in 55.34ms. Success: 27, Out of stock: 73, Remaining stock: 0
+[2026-10-28 20:14:27] [INFO] [TEST RUN 9413459b] Started concurrency stress test: 100 customers buying SKU PROD-1002
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:14:27] [INFO] Calling function 'sell_product' with args: ('PROD-1002', 1) and kwargs: {}
+[2026-10-28 20:14:27] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:14:27] [SUCCESS] Function 'sell_product' completed successfully
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [ERROR] Function 'sell_product' failed with error: Not enough stock of 'Wireless Mouse' (SKU: PROD-1002) to sell 1. Current stock: 0
+[2026-10-28 20:14:27] [SUCCESS] [TEST RUN 9413459b] Completed in 58.34ms. Success: 33, Out of stock: 67, Remaining stock: 0
+[2026-10-28 20:14:45] [INFO] Calling function 'restock_product' with args: ('PROD-1006', 10) and kwargs: {}
+[2026-10-28 20:14:45] [SUCCESS] Function 'restock_product' completed successfully
+[2026-10-28 20:14:49] [INFO] Calling function 'restock_product' with args: ('PROD-1002', 10) and kwargs: {}
+[2026-10-28 20:14:49] [SUCCESS] Function 'restock_product' completed successfully
